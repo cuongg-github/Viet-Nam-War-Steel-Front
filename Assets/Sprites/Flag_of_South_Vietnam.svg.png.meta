@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Flag_of_South_Vietnam.svg_0: 5586951485976804815
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
