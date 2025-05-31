@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      co-giai-phong_0: 2667936917205578003
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
