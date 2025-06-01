@@ -4,8 +4,12 @@
 TagManager:
   serializedVersion: 3
   tags:
-  - GunBullet
-  - Gun
+  - Tank_Enemy
+  - Tank_Ally
+  - Enemy_Bullet
+  - Ally_Bullet
+  - Bullet
+  - MediumGun_Ally
   layers:
   - Default
   - TransparentFX
@@ -13,10 +17,10 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
+  - Tank
+  - Bullet
+  - Tank_Enemy
+  - Bullet_Enemy
   - 
   - 
   - 
@@ -42,12 +46,6 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
-    locked: 0
-  - name: GunBullet
-    uniqueID: 1962545517
-    locked: 0
-  - name: Gun
-    uniqueID: 2864462505
     locked: 0
   m_RenderingLayers:
   - Default
