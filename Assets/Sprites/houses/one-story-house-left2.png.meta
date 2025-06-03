@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: c3a015aca831074468797fc90458f3fe
+guid: b7d3a8822bdfe914dbcd24036b22a651
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -672569068813456947
-    second: Map2_0
+      213: 6047893784138898262
+    second: one-story-house-left2_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Map2_0
+      name: one-story-house-left2_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1024
-        height: 1024
+        x: 46
+        y: 88
+        width: 930
+        height: 862
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dc9657ecefd8aa6f0800000000000000
-      internalID: -672569068813456947
+      spriteID: 65b54e28a5f6ee350800000000000000
+      internalID: 6047893784138898262
       vertices: []
       indices: 
       edges: []
@@ -134,8 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Map2_0: -672569068813456947
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
