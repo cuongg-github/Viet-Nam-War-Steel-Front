@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      two-story-house-left_0: 978166852591389539
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
