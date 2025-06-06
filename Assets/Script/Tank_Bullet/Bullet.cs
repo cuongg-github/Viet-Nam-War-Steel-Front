@@ -3,13 +3,16 @@ public class Bullet : MonoBehaviour
 {
     public int damage = 20;
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Tank_Enemy"))
         {
+            Collider2D bulleCollider = GetComponent<Collider2D>();
             TankEnemy enemy = collision.gameObject.GetComponent<TankEnemy>();
             if (enemy != null)
             {
+                Collider2D enemyCollider = enemy.GetComponent<Collider2D>();
+                Physics2D.IgnoreCollision(enemyCollider,bulleCollider);
                 enemy.TakeDamage(damage);
             }
         }

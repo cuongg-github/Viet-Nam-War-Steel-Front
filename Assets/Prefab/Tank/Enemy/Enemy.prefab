@@ -26,8 +26,8 @@ Transform:
   m_GameObject: {fileID: 679946822403507276}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.92, y: -0.89, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -12.28, y: -1.95, z: 0}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3281406080380388924}
@@ -113,8 +113,8 @@ Transform:
   m_GameObject: {fileID: 1016875828116125207}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.9199996, y: -0.79, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -12.32, y: -1.89, z: 0}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3281406080380388924}
@@ -200,8 +200,8 @@ Transform:
   m_GameObject: {fileID: 1098008929954996968}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.88, y: -0.74, z: 0}
-  m_LocalScale: {x: 0.0963791, y: 0.1129664, z: 1}
+  m_LocalPosition: {x: -12.209999, y: -1.5500001, z: 0}
+  m_LocalScale: {x: 0.25569603, y: 0.28319803, z: 3}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3281406080380388924}
@@ -249,7 +249,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 4
+  m_SortingOrder: 5
   m_Sprite: {fileID: 5586951485976804815, guid: 55da57b46825c6347b0007c8b844b4fd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -287,8 +287,8 @@ Transform:
   m_GameObject: {fileID: 1595618404310072128}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.9, y: 0.8, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -12.280001, y: 1.2599998, z: 0}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3281406080380388924}
@@ -376,8 +376,8 @@ Transform:
   m_GameObject: {fileID: 2943940627326362025}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.71, y: -0.88, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -14.02, y: -1.85, z: 0}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3281406080380388924}
@@ -500,8 +500,8 @@ Transform:
   m_GameObject: {fileID: 7342899469317669300}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.08, y: -0.88, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -10.41, y: -1.89, z: 0}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3281406080380388924}
@@ -606,8 +606,9 @@ GameObject:
   m_Component:
   - component: {fileID: 3281406080380388924}
   - component: {fileID: 925976264097213192}
-  - component: {fileID: 8157697236036722390}
   - component: {fileID: 8244726979060625327}
+  - component: {fileID: -7731124407274329599}
+  - component: {fileID: -4107452678396909483}
   m_Layer: 8
   m_Name: Enemy
   m_TagString: Tank_Enemy
@@ -628,11 +629,11 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 3640668617813020857}
   - {fileID: 7844788287020686329}
   - {fileID: 1106811108191315370}
   - {fileID: 5654785317302700073}
   - {fileID: 1607510173899959137}
+  - {fileID: 3640668617813020857}
   - {fileID: 2704992547197539776}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -663,8 +664,23 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!61 &8157697236036722390
-BoxCollider2D:
+--- !u!114 &8244726979060625327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7977380413803772833}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f03bfa47e3830047b0dbc3024b9cbed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 100
+  rb: {fileID: 925976264097213192}
+  poly: {fileID: 0}
+--- !u!60 &-7731124407274329599
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -707,9 +723,15 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
---- !u!114 &8244726979060625327
+  m_Points:
+    m_Paths:
+    - - {x: 0, y: 1}
+      - {x: -0.95105654, y: 0.30901697}
+      - {x: -0.5877852, y: -0.80901706}
+      - {x: 0.58778536, y: -0.80901694}
+      - {x: 0.9510565, y: 0.30901712}
+  m_UseDelaunayMesh: 0
+--- !u!114 &-4107452678396909483
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -718,9 +740,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 7977380413803772833}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2f03bfa47e3830047b0dbc3024b9cbed, type: 3}
+  m_Script: {fileID: 11500000, guid: b6773fbe5590dcc42a18c1f7d36402cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 100
-  rb: {fileID: 925976264097213192}
-  bc: {fileID: 8157697236036722390}
+  detectRange: 30
+  shootRange: 20
+  stopRange: 20
+  moveSpeed: 2
+  rotateSpeed: 50
+  shootCooldown: 10
+  bulletPrefab: {fileID: 0}
+  firePoint: {fileID: 0}
+  heavyHull: {fileID: 0}
+  rb: {fileID: 0}
+  fireCooldown: 2

@@ -28,8 +28,8 @@ Transform:
   m_GameObject: {fileID: 260343972794220325}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.08, y: -0.88, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -2.28, y: -1.51, z: 0}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3660021878153872579}
@@ -151,8 +151,8 @@ Transform:
   m_GameObject: {fileID: 2009789651705625313}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.82, y: -0.58, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -4.1, y: -1.58, z: 0}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3660021878153872579}
@@ -262,8 +262,8 @@ Transform:
   m_GameObject: {fileID: 2455319452577949706}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.71, y: -0.88, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -6.09, y: -1.45, z: 0}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3660021878153872579}
@@ -384,8 +384,8 @@ Transform:
   m_GameObject: {fileID: 5636426287108361324}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.9099998, y: -0.84000003, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -4.22, y: -1.38, z: 0}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3660021878153872579}
@@ -471,8 +471,8 @@ Transform:
   m_GameObject: {fileID: 6513015737271257588}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.9499998, y: 1.0899999, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -4.26, y: 2.23, z: 0}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3660021878153872579}
@@ -558,8 +558,8 @@ Transform:
   m_GameObject: {fileID: 7009122319145527894}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.86, y: -0.52, z: 0}
-  m_LocalScale: {x: 0.0963791, y: 0.112966396, z: 1}
+  m_LocalPosition: {x: -4.14, y: -1.37, z: 0}
+  m_LocalScale: {x: 0.2732, y: 0.2628, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3660021878153872579}
@@ -630,7 +630,6 @@ GameObject:
   - component: {fileID: 3660021878153872579}
   - component: {fileID: 7540968770746443232}
   - component: {fileID: 4652822320857256690}
-  - component: {fileID: 1906380157244517612}
   - component: {fileID: 6774482443522142675}
   m_Layer: 6
   m_Name: Ally_Tank
@@ -675,11 +674,10 @@ MonoBehaviour:
   trackLeft: {fileID: 8795786129190140186}
   trackRight: {fileID: 8187642468063244055}
   rb: {fileID: 4652822320857256690}
-  bc: {fileID: 1906380157244517612}
-  keyMoveForward: w
-  keyMoveReverse: s
-  keyRotateRight: d
-  keyRotateLeft: a
+  bc: {fileID: 0}
+  maxHealth: 100
+  moveSpeed: 3
+  rotateSpeed: 100
   doublerotate: 10
 --- !u!50 &4652822320857256690
 Rigidbody2D:
@@ -708,52 +706,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!61 &1906380157244517612
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7251965589066034204}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
 --- !u!114 &6774482443522142675
 MonoBehaviour:
   m_ObjectHideFlags: 0
