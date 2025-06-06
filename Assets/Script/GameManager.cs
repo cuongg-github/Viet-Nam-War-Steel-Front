@@ -5,7 +5,7 @@ public class GameManager : MonoBehaviour
 {
     public int requiredGunsDestroyed = 3;
     public int requiredTanksDestroyed = 5;
-    public float timeLimit = 120f; // 2 phút
+    public float timeLimit = 120f; 
 
     public GameObject winPanel;
     public GameObject losePanel;
@@ -54,7 +54,7 @@ public class GameManager : MonoBehaviour
         gameEnded = true;
         Debug.Log("WIN GAME!");
         if (winPanel != null) winPanel.SetActive(true);
-        Invoke("LoadNextLevel", 2f);
+        //Invoke("LoadNextLevel", 5f);
     }
 
     void LoseGame()
@@ -62,13 +62,13 @@ public class GameManager : MonoBehaviour
         gameEnded = true;
         Debug.Log("YOU LOSE!");
         if (losePanel != null) losePanel.SetActive(true);
-        Invoke("ReloadLevel", 2f);
+        Invoke("ReloadLevel", 5f);
     }
 
-    void LoadNextLevel()
-    {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-    }
+    //void LoadNextLevel()
+    //{
+    //    SceneManager.LoadScene("Map2");
+    //}
 
     void ReloadLevel()
     {
