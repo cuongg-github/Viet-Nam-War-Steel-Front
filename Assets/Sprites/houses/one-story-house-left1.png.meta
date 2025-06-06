@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      one-story-house-left1_0: -5455636703774115710
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

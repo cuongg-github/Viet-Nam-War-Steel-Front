@@ -2,8 +2,8 @@ using UnityEngine;
 
 public class Tank_Shooting : MonoBehaviour
 {
-    [SerializeField] private GameObject bulletPrefab;
-    [SerializeField] private Transform firePoint;
+    public GameObject bulletPrefab;
+    public Transform firePoint;
 
     public float bulletSpeed = 10f;
 
