@@ -12,6 +12,8 @@ TagManager:
   - MediumGun_Ally
   - Gun
   - GunBullet
+  - reward_health
+  - reward_bullet
   layers:
   - Default
   - TransparentFX
