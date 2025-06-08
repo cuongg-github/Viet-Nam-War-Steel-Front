@@ -6,8 +6,10 @@ public class Gun : MonoBehaviour
 
     [SerializeField] private Transform firePos;
     [SerializeField] private GameObject bulletPrefab;
+    [SerializeField] private Rigidbody2D rb;
     [SerializeField] private float shotDelay = 0.15f;
     [SerializeField] private float bulletSpeed = 25f;
+    [SerializeField] private float detectRange = 30f;
 
     [SerializeField] private float recoilDistance = 0.1f;
     [SerializeField] private float recoilSpeed = 20f;
@@ -20,24 +22,28 @@ public class Gun : MonoBehaviour
     void Start()
     {
         originalPosition = transform.localPosition;
+        nextShotTime += shotDelay;
+        rb = GetComponent<Rigidbody2D>();
+        rb.constraints = RigidbodyConstraints2D.FreezeAll;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Time.time >= nextShotTime)
+        if (playerTransform == null && turretToRotate == null) return;
+        float distance = Vector2.Distance(playerTransform.GetComponent<Collider2D>().bounds.center, transform.GetComponent<Collider2D>().bounds.center);
+        if (distance < detectRange)
         {
-            Shoot();
-            nextShotTime = Time.time + shotDelay;
-        }
-
-        if (playerTransform != null && turretToRotate != null)
-        {
+            if (Time.time >= nextShotTime)
+            {
+                Shoot();
+                nextShotTime = Time.time + shotDelay;
+            }
             Vector3 direction = playerTransform.position - turretToRotate.position;
             float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
             turretToRotate.rotation = Quaternion.Euler(0f, 0f, angle);
-        }
 
+        }
     }
     void Shoot()
     {

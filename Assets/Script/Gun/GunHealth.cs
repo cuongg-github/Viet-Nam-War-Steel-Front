@@ -4,7 +4,7 @@ using UnityEngine.Events;
 public class GunHealth : MonoBehaviour
 {
     [SerializeField] int maxHealth;
-    int currentHealth;
+    int currentHealth = 100;
 
     public HealthBar healthBar;
 
