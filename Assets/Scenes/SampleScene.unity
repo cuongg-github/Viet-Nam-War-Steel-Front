@@ -565,7 +565,7 @@ Transform:
   m_GameObject: {fileID: 466689089}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.2, y: 10.2, z: -10}
+  m_LocalPosition: {x: -12.5, y: 5.7, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1621,6 +1621,63 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &985005667
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3794066800861589210, guid: 1fea78f1c48508043b1929ca7f76c6fc, type: 3}
+      propertyPath: m_Name
+      value: Ally_Tank (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5236538844832822967, guid: 1fea78f1c48508043b1929ca7f76c6fc, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -14.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5236538844832822967, guid: 1fea78f1c48508043b1929ca7f76c6fc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -28
+      objectReference: {fileID: 0}
+    - target: {fileID: 5236538844832822967, guid: 1fea78f1c48508043b1929ca7f76c6fc, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5236538844832822967, guid: 1fea78f1c48508043b1929ca7f76c6fc, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5236538844832822967, guid: 1fea78f1c48508043b1929ca7f76c6fc, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5236538844832822967, guid: 1fea78f1c48508043b1929ca7f76c6fc, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5236538844832822967, guid: 1fea78f1c48508043b1929ca7f76c6fc, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5236538844832822967, guid: 1fea78f1c48508043b1929ca7f76c6fc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5236538844832822967, guid: 1fea78f1c48508043b1929ca7f76c6fc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5236538844832822967, guid: 1fea78f1c48508043b1929ca7f76c6fc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1fea78f1c48508043b1929ca7f76c6fc, type: 3}
 --- !u!1 &1126149298
 GameObject:
   m_ObjectHideFlags: 0
@@ -2069,13 +2126,8 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1974107746 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2943940627326362025, guid: 7a89999bbc061fa4a9e3ec78f4d5b61c, type: 3}
-  m_PrefabInstance: {fileID: 604997844}
-  m_PrefabAsset: {fileID: 0}
---- !u!61 &1974107751
-BoxCollider2D:
+--- !u!1001 &2033154142
+PrefabInstance:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -2290,11 +2342,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6442834724698789790, guid: 96ccb1824f4a2ce4b9ca4944316c53cf, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -0.7
       objectReference: {fileID: 0}
     - target: {fileID: 6442834724698789790, guid: 96ccb1824f4a2ce4b9ca4944316c53cf, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2
+      value: -2.2
       objectReference: {fileID: 0}
     - target: {fileID: 6442834724698789790, guid: 96ccb1824f4a2ce4b9ca4944316c53cf, type: 3}
       propertyPath: m_LocalPosition.z
@@ -11079,8 +11131,6 @@ SceneRoots:
   m_Roots:
   - {fileID: 466689092}
   - {fileID: 6849598078583515481}
-  - {fileID: 341975427}
-  - {fileID: 604997844}
   - {fileID: 601789460}
   - {fileID: 838517963}
   - {fileID: 1126149301}
