@@ -48,7 +48,6 @@ public class FollowTankAllly : MonoBehaviour
                 }
                 else
                 {
-                    Debug.Log("move player follow");
                     moveFollowPlayer();
                 }
             }
@@ -66,7 +65,6 @@ public class FollowTankAllly : MonoBehaviour
                     }
                 } else
                 {
-                    Debug.Log("move player shoot");
                     moveFollowPlayer();
                 }
             }
@@ -90,25 +88,21 @@ public class FollowTankAllly : MonoBehaviour
             if (player.position.x > transform.position.x && player.position.y > transform.position.y)
             {
                 Debug.Log("right up");
-                //rb.MovePosition(rb.position + (Vector2)transform.up * moveSpeed * Time.fixedDeltaTime);
                 rb.MoveRotation(rb.rotation + rotateSpeed * -1 * 10f * Time.fixedDeltaTime);
             }
             if (player.position.x < transform.position.x && player.position.y > transform.position.y)
             {
                 Debug.Log("left up");
-/*                rb.MovePosition(rb.position + (Vector2)transform.up * moveSpeed * Time.fixedDeltaTime);
-*/                rb.MoveRotation(rb.rotation + rotateSpeed * 10f * Time.fixedDeltaTime);
+                rb.MoveRotation(rb.rotation + rotateSpeed * 10f * Time.fixedDeltaTime);
             }
             if (player.position.x < transform.position.x && player.position.y < transform.position.y)
             {
                 Debug.Log("left down");
-                //rb.MovePosition(rb.position + (Vector2)transform.up * -1 * moveSpeed * Time.fixedDeltaTime);
                 rb.MoveRotation(rb.rotation + rotateSpeed * 10f * Time.fixedDeltaTime);
             }
             if (player.position.x > transform.position.x && player.position.y < transform.position.y)
             {
                 Debug.Log("right down");
-                //rb.MovePosition(rb.position + (Vector2)transform.up * -1 * moveSpeed * Time.fixedDeltaTime);
                 rb.MoveRotation(rb.rotation + rotateSpeed * -1 * 10f * Time.fixedDeltaTime);
             }
         }
