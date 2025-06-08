@@ -10,6 +10,8 @@ TagManager:
   - Ally_Bullet
   - Bullet
   - MediumGun_Ally
+  - Gun
+  - GunBullet
   - reward_health
   - reward_bullet
   layers:
@@ -23,8 +25,8 @@ TagManager:
   - Bullet
   - Tank_Enemy
   - Bullet_Enemy
-  - 
-  - 
+  - Gun
+  - Bulet_Gun
   - 
   - 
   - 
@@ -48,6 +50,12 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Flash
+    uniqueID: 2348354053
+    locked: 0
+  - name: Gun
+    uniqueID: 1327809081
     locked: 0
   m_RenderingLayers:
   - Default

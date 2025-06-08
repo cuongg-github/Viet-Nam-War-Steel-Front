@@ -15,7 +15,14 @@ public class Bullet : MonoBehaviour
                 enemy.TakeDamage(damage);
             }
         }
-
+        if (collision.gameObject.CompareTag("Gun"))
+        {
+            GunHealth enemyHealth = collision.gameObject.GetComponent<GunHealth>();
+            if (enemyHealth != null)
+            {
+                enemyHealth.TakeDamage(damage);
+            }
+        }
         Destroy(gameObject); 
     }
 }
