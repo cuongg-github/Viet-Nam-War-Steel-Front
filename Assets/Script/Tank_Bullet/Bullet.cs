@@ -12,7 +12,6 @@ public class Bullet : MonoBehaviour
             if (enemy != null)
             {
                 Collider2D enemyCollider = enemy.GetComponent<Collider2D>();
-                Physics2D.IgnoreCollision(enemyCollider,bulleCollider);
                 enemy.TakeDamage(damage);
             }
         }
