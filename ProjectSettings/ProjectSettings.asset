@@ -163,7 +163,11 @@ PlayerSettings:
   androidMaxAspectRatio: 2.4
   androidMinAspectRatio: 1
   applicationIdentifier:
+<<<<<<< HEAD
+    Standalone: com.DefaultCompany.2D-URP
+=======
     Standalone: com.DefaultCompany.2D-Project
+>>>>>>> e5b420c1353b14b02bf93eb35599fa82bc5999bc
   buildNumber:
     Standalone: 0
     VisionOS: 0
@@ -250,8 +254,13 @@ PlayerSettings:
   iOSAutomaticallyDetectAndAddCapabilities: 1
   appleEnableProMotion: 0
   shaderPrecisionModel: 0
+<<<<<<< HEAD
+  clonedFromGUID: c19f32bac17ee4170b3bf8a6a0333fb9
+  templatePackageId: com.unity.template.universal-2d@5.1.0
+=======
   clonedFromGUID: 10ad67313f4034357812315f3c407484
   templatePackageId: com.unity.template.2d@10.1.0
+>>>>>>> e5b420c1353b14b02bf93eb35599fa82bc5999bc
   templateDefaultScene: Assets/Scenes/SampleScene.unity
   useCustomMainManifest: 0
   useCustomLauncherManifest: 0
@@ -290,6 +299,11 @@ PlayerSettings:
   m_BuildTargetPlatformIcons: []
   m_BuildTargetBatching: []
   m_BuildTargetShaderSettings: []
+<<<<<<< HEAD
+  m_BuildTargetGraphicsJobs: []
+  m_BuildTargetGraphicsJobMode: []
+  m_BuildTargetGraphicsAPIs: []
+=======
   m_BuildTargetGraphicsJobs:
   - m_BuildTarget: MacStandaloneSupport
     m_GraphicsJobs: 0
@@ -325,6 +339,7 @@ PlayerSettings:
   - m_BuildTarget: iOSSupport
     m_APIs: 10000000
     m_Automatic: 1
+>>>>>>> e5b420c1353b14b02bf93eb35599fa82bc5999bc
   m_BuildTargetVRSettings: []
   m_DefaultShaderChunkSizeInMB: 16
   m_DefaultShaderChunkCount: 0
@@ -340,10 +355,14 @@ PlayerSettings:
   m_BuildTargetGroupLightmapSettings: []
   m_BuildTargetGroupLoadStoreDebugModeSettings: []
   m_BuildTargetNormalMapEncoding: []
+<<<<<<< HEAD
+  m_BuildTargetDefaultTextureCompressionFormat: []
+=======
   m_BuildTargetDefaultTextureCompressionFormat:
   - serializedVersion: 3
     m_BuildTarget: Android
     m_Formats: 03000000
+>>>>>>> e5b420c1353b14b02bf93eb35599fa82bc5999bc
   playModeTestRunnerEnabled: 0
   runPlayModeTestAsEditModeTest: 0
   actionOnDotNetUnhandledException: 1
@@ -630,14 +649,22 @@ PlayerSettings:
   editorAssembliesCompatibilityLevel: 1
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
+<<<<<<< HEAD
+  metroPackageName: Group4
+=======
   metroPackageName: Vietnam War Steel Front
+>>>>>>> e5b420c1353b14b02bf93eb35599fa82bc5999bc
   metroPackageVersion: 
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
+<<<<<<< HEAD
+  metroApplicationDescription: Group4
+=======
   metroApplicationDescription: Vietnam War Steel Front
+>>>>>>> e5b420c1353b14b02bf93eb35599fa82bc5999bc
   wsaImages: {}
   metroTileShortName: 
   metroTileShowName: 0
@@ -699,7 +726,11 @@ PlayerSettings:
     m_VersionCode: 1
     m_VersionName: 
   hmiPlayerDataPath: 
+<<<<<<< HEAD
+  hmiForceSRGBBlit: 1
+=======
   hmiForceSRGBBlit: 0
+>>>>>>> e5b420c1353b14b02bf93eb35599fa82bc5999bc
   embeddedLinuxEnableGamepadInput: 0
   hmiCpuConfiguration: 
   hmiLogStartupTiming: 0
@@ -708,11 +739,19 @@ PlayerSettings:
   captureStartupLogs: {}
   activeInputHandler: 2
   windowsGamepadBackendHint: 0
+<<<<<<< HEAD
+  cloudProjectId: 6469a743-28ff-4619-ad40-cc04fadf2f64
+  framebufferDepthMemorylessMode: 0
+  qualitySettingsNames: []
+  projectName: Group4
+  organizationId: thaiiha
+=======
   cloudProjectId: 41b3b1a0-c11b-44f7-9396-b6cd391328ae
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
   projectName: Vietnam War Steel Front 2025-05-26_15-56-13
   organizationId: cuongtqde181075
+>>>>>>> e5b420c1353b14b02bf93eb35599fa82bc5999bc
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   hmiLoadingImage: {fileID: 0}
