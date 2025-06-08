@@ -6,12 +6,26 @@ public class Tank_Shooting : MonoBehaviour
     public Transform firePoint;
 
     public float bulletSpeed = 10f;
+    public float shootCooldown = 10f;
+    private float tempShoot;
+
+    private void Start()
+    {
+        tempShoot = shootCooldown;
+    }
 
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            Shoot();
+            if (shootCooldown == 0) 
+            {
+                Shoot();
+                shootCooldown += tempShoot;
+            } else
+            {
+                shootCooldown -= 1;
+            }
         }
     }
 
