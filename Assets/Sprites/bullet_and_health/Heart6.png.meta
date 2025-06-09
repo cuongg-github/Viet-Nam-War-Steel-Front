@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 30350a9c01017a945b1a06d02481e355
+guid: 496d2284a996d8647a9e8e5b328406d9
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3616215200776408761
-    second: Da_Nang_Gate_0
+      213: 7146021014487668170
+    second: Heart6_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Da_Nang_Gate_0
+      name: Heart6_0
       rect:
         serializedVersion: 2
-        x: 28
-        y: 40
-        width: 194
-        height: 184
+        x: 0
+        y: 7
+        width: 2828
+        height: 2802
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9be45a9c0906f2230800000000000000
-      internalID: 3616215200776408761
+      spriteID: ac5930e5044cb2360800000000000000
+      internalID: 7146021014487668170
       vertices: []
       indices: 
       edges: []
@@ -134,8 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Da_Nang_Gate_0: 3616215200776408761
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
