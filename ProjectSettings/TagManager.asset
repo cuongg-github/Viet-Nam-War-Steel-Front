@@ -57,5 +57,17 @@ TagManager:
   - name: Gun
     uniqueID: 1327809081
     locked: 0
+  - name: MapBoundary
+    uniqueID: 11083791
+    locked: 0
+  - name: House
+    uniqueID: 519459777
+    locked: 0
+  - name: Grass
+    uniqueID: 93123005
+    locked: 0
+  - name: ChuongNgaiVat
+    uniqueID: 3886353887
+    locked: 0
   m_RenderingLayers:
   - Default

@@ -33,7 +33,6 @@ public class GunHealth : MonoBehaviour
             healthBar.UpdateBar(currentHealth, maxHealth);
     }
 
-
     private void Update()
     {
 
