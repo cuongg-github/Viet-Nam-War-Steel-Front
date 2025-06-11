@@ -23,7 +23,7 @@ public class Tank : MonoBehaviour
         rb.gravityScale = 0;
         poly = GetComponent<PolygonCollider2D>();
         float directionX = Mathf.Sign(transform.localScale.x);
-        poly.offset = new Vector2((Mathf.Abs(poly.offset.x) * directionX) - 6, poly.offset.y);
+        poly.offset = new Vector2((poly.offset.x * directionX) - 6, poly.offset.y);
         Vector2[] customShape = new Vector2[] {
             new Vector2(2.079555f, 1.121828f),
             new Vector2(2.084945f, 2.416713f),
