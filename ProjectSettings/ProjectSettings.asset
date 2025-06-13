@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 28
-  productGUID: 752387500486c5d48b660c37ea55a8e3
+  productGUID: f3a1b391a8e387241a674aeb0b6ebc13
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -594,14 +594,14 @@ PlayerSettings:
   editorAssembliesCompatibilityLevel: 1
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: Viet-Nam-War-Steel-Front
+  metroPackageName: Vietnam War Steel Front
   metroPackageVersion: 
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
-  metroApplicationDescription: Viet-Nam-War-Steel-Front
+  metroApplicationDescription: Vietnam War Steel Front
   wsaImages: {}
   metroTileShortName: 
   metroTileShowName: 0
