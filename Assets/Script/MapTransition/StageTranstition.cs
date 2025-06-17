@@ -5,8 +5,9 @@ public class StageTranstition : MonoBehaviour
 {
     public PolygonCollider2D mapBoundary;
     CinemachineConfiner confiner;
+    public float push = 50f;
     public Direction direction;
-    public enum Direction { Up, Down }
+    public enum Direction { Up, Down, Left, Right }
     void Awake()
     {
         confiner = FindFirstObjectByType<CinemachineConfiner>();
@@ -27,10 +28,16 @@ public class StageTranstition : MonoBehaviour
         switch (direction)
         {
             case Direction.Up:
-                newPos.y += 20;
+                newPos.y += push;
                 break;
             case Direction.Down:
-                newPos.y -= 20;
+                newPos.y -= push;
+                break;
+            case Direction.Left:
+                newPos.x -= push;
+                break;
+            case Direction.Right:
+                newPos.x += push;
                 break;
         }
 
