@@ -44,10 +44,12 @@ public class FollowTankAllly : MonoBehaviour
                 Debug.DrawRay(heavyHull.position, heavyHull.up * detectRange, Color.green);
                 if (movePoint.collider != null)
                 {
+                    Debug.Log("hit");
                     rb.MovePosition(rb.position + (Vector2)transform.up * moveSpeed * Time.fixedDeltaTime);
                 }
                 else
                 {
+                    Debug.Log("Not hit");
                     moveFollowPlayer();
                 }
             }

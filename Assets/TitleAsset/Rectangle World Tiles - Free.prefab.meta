@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Rectangle World Tiles - Free.prefab.meta
+guid: b463c85dd292a164a93dd109148bb7b6
+=======
 guid: 0dcdec8addd38b143977d7b5800fd008
+>>>>>>> 4e42b50af97d516b9d7df589235d1642ea71fe3b:Assets/TitleAsset/Rectangle World Tiles - Free.prefab.meta
 PrefabImporter:
   externalObjects: {}
   userData: 
