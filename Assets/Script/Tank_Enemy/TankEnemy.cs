@@ -6,6 +6,7 @@ public class TankEnemy : MonoBehaviour
     private int currentHealth;
     private bool isDead = false;
 
+    public HealthBar healthBar;
     public Rigidbody2D rb;
     public PolygonCollider2D poly;
 
@@ -21,6 +22,8 @@ public class TankEnemy : MonoBehaviour
         rb.gravityScale = 0;
         poly = GetComponent<PolygonCollider2D>();
         float directionX = Mathf.Sign(transform.localScale.x);
+        if (healthBar != null)
+            healthBar.UpdateBar(currentHealth, maxHealth);
     }
 
     public void TakeDamage(int damage)
@@ -37,6 +40,7 @@ public class TankEnemy : MonoBehaviour
             SpawnReward();
 
         }
+        healthBar.UpdateBar(currentHealth, maxHealth);
     }
 
     void Die()

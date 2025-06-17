@@ -9,21 +9,18 @@ public class GunBullet : MonoBehaviour
     void Start()
     {
         Rigidbody2D rb = GetComponent<Rigidbody2D>();
-        rb.AddForce(transform.right * moveSpeed, ForceMode2D.Impulse); // bắn thẳng
-
-        Destroy(gameObject, timeDestroy);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Gun"))
+        if (collision.CompareTag("Tank_Ally"))
         {
-            GunHealth enemyHealth = collision.GetComponent<GunHealth>();
-            if (enemyHealth != null)
+            Tank tankally = collision.GetComponent<Tank>();
+            if ( tankally != null )
             {
-                enemyHealth.TakeDamage(20); // Gọi phương thức TakeDamage trên đối tượng va chạm
+                tankally.TakeDamage(20); 
             }
         }
-        Destroy(gameObject); // Hủy viên đạn khi va chạm
+        Destroy(gameObject);
     }
 }
