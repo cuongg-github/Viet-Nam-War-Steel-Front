@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 3792128668335113338}
   - component: {fileID: 5395853368281253790}
   - component: {fileID: 8804134677726316988}
-  - component: {fileID: 1285600320652978237}
   m_Layer: 7
   m_Name: Ally_Bullet
   m_TagString: Ally_Bullet
@@ -148,7 +147,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -176,17 +175,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d4e08b89714aeca4997f398721fdf956, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 20
---- !u!114 &1285600320652978237
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6267833845587364520}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d4e08b89714aeca4997f398721fdf956, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damage: 20
+  damage: 50

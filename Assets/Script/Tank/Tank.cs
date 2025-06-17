@@ -6,90 +6,65 @@ public class Tank : MonoBehaviour
     public Animator trackLeft;
     public Animator trackRight;
     public Rigidbody2D rb;
-    public BoxCollider2D bc;
+    public PolygonCollider2D poly;
+    public int maxHealth = 100;
+    public float moveSpeed = 3f;
+    public float rotateSpeed = 100f;
 
-    public string keyMoveForward;
-    public string keyMoveReverse;
-    public string keyRotateRight;
-    public string keyRotateLeft;
-
-    bool moveForward = false;
-    bool moveReverse = false;
-    float moveSpeed = 3f;
-
-    bool rotateRight = false;
-    bool rotateLeft = false;
-    float rotateSpeed = 100f;
+    private int currentHealth;
+    Vector2 moveAmount;
     public float doublerotate = 10f;
-
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        bc = GetComponent<BoxCollider2D>();
+        currentHealth = maxHealth;
         rb.angularDamping = 10f;
+        rb.linearDamping = 10f;
         rb.gravityScale = 0;
-        Vector2 size = bc.size;
+        poly = GetComponent<PolygonCollider2D>();
         float directionX = Mathf.Sign(transform.localScale.x);
-        bc.offset = new Vector2((Mathf.Abs(bc.offset.x) * directionX) -3, bc.offset.y);
-        bc.size = new Vector2(2.5f, 4);
     }
 
 
 
     void Update()
     {
-        moveForward = Input.GetKey(keyMoveForward) ? true : false;
-        moveReverse = Input.GetKey(keyMoveReverse) ? true : false;
-        rotateRight = Input.GetKey(keyRotateRight) ? true : false;
-        rotateLeft = Input.GetKey(keyRotateLeft) ? true : false;
+        moveAmount = transform.up * Input.GetAxisRaw("Vertical");
     }
     void FixedUpdate()
     {
-        if (moveForward || moveReverse)
+        if ( Input.GetAxisRaw("Vertical") != 0 )
         {
-            if (rotateRight)
+            rb.MovePosition(rb.position + moveAmount * moveSpeed * Time.fixedDeltaTime);
+            if ( Input.GetAxisRaw("Horizontal") != 0 )
             {
-                if (moveForward)
+                if (Input.GetAxisRaw("Vertical") == 1 )
                 {
-                    rb.MovePosition(rb.position + (Vector2)transform.up * moveSpeed * Time.fixedDeltaTime);
-                    rb.MoveRotation(rb.rotation + rotateSpeed * -1f * Time.fixedDeltaTime);
-                }
-                else if (moveReverse)
+                    rb.MoveRotation(rb.rotation - Input.GetAxisRaw("Horizontal") * rotateSpeed * Time.fixedDeltaTime);
+                } else
                 {
-                    rb.MovePosition(rb.position + (Vector2)transform.up * -1 * moveSpeed * Time.fixedDeltaTime);
-                    rb.MoveRotation(rb.rotation + rotateSpeed * Time.fixedDeltaTime);
-                }
-            }
-            else if (rotateLeft)
-            {
-                if (moveForward)
-                {
-                    rb.MovePosition(rb.position + (Vector2)transform.up * moveSpeed * Time.fixedDeltaTime);
-                    rb.AddTorque(rotateSpeed * doublerotate * Time.fixedDeltaTime);
-                }
-                else if (moveReverse)
-                {
-                    rb.MovePosition(rb.position + (Vector2)transform.up * -1 * moveSpeed * Time.fixedDeltaTime);
-                    rb.AddTorque(rotateSpeed * doublerotate * -1 * Time.fixedDeltaTime);
-                }
-            }
-            else
-            {
-                if (moveForward)
-                {
-                    rb.MovePosition(rb.position + (Vector2)transform.up * moveSpeed * Time.fixedDeltaTime);
-                }
-                else if (moveReverse)
-                {
-                    rb.MovePosition(rb.position + (Vector2)transform.up * -1 * moveSpeed * Time.fixedDeltaTime);
+                    rb.MoveRotation(rb.rotation + Input.GetAxisRaw("Horizontal") * rotateSpeed * Time.fixedDeltaTime);
                 }
             }
             trackStart();
-        }
-        else
+        } else
         {
             trackStop();
         }
+    }
+
+    public void TakeDamage(int damage)
+    {
+        currentHealth -= damage;
+        if (currentHealth <= 0)
+        {
+            Die();
+        }
+    }
+
+    void Die()
+    {
+        Destroy(gameObject);
     }
 
     void trackStart()

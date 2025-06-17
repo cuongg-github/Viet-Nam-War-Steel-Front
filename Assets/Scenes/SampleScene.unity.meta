@@ -1,7 +1,14 @@
 fileFormatVersion: 2
-guid: 2cda990e2423bbf4892e6590ba056729
+guid: a7b919d04e089be42a0b780cc4bd4c09
 DefaultImporter:
   externalObjects: {}
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 287862
+  packageName: Heart in pixel
+  packageVersion: 1.0
+  assetPath: Assets/Scenes/SampleScene.unity
+  uploadId: 671617
