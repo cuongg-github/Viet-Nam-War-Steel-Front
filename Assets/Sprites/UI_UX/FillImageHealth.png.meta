@@ -1,0 +1,4225 @@
+fileFormatVersion: 2
+guid: d417697a9bfd50a479c75899e373be57
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1976767504014029882
+    second: FillImageHealth_0
+  - first:
+      213: 8858473831009334485
+    second: FillImageHealth_1
+  - first:
+      213: 6503401269461821665
+    second: FillImageHealth_2
+  - first:
+      213: -3990792680577633499
+    second: FillImageHealth_3
+  - first:
+      213: 6267460293641137964
+    second: FillImageHealth_4
+  - first:
+      213: -2866232705200295564
+    second: FillImageHealth_5
+  - first:
+      213: 1503700703379102061
+    second: FillImageHealth_6
+  - first:
+      213: 4639641472259447767
+    second: FillImageHealth_7
+  - first:
+      213: -7754717041053738240
+    second: FillImageHealth_8
+  - first:
+      213: -8914499593044404768
+    second: FillImageHealth_9
+  - first:
+      213: 2893698477136499538
+    second: FillImageHealth_10
+  - first:
+      213: 3544550940650140827
+    second: FillImageHealth_11
+  - first:
+      213: -3807012007128933297
+    second: FillImageHealth_12
+  - first:
+      213: 8868068509358219880
+    second: FillImageHealth_13
+  - first:
+      213: -4517102454166035681
+    second: FillImageHealth_14
+  - first:
+      213: -7100487651993886100
+    second: FillImageHealth_15
+  - first:
+      213: 6033363401184637340
+    second: FillImageHealth_16
+  - first:
+      213: -7063430208360422945
+    second: FillImageHealth_17
+  - first:
+      213: 8617978959829621487
+    second: FillImageHealth_18
+  - first:
+      213: -2153871639895799984
+    second: FillImageHealth_19
+  - first:
+      213: 1688613098575876225
+    second: FillImageHealth_20
+  - first:
+      213: 2027263404453573004
+    second: FillImageHealth_21
+  - first:
+      213: 8987309818823242565
+    second: FillImageHealth_22
+  - first:
+      213: 6173687232115708341
+    second: FillImageHealth_23
+  - first:
+      213: -6419200728208543289
+    second: FillImageHealth_24
+  - first:
+      213: 5538265459434064436
+    second: FillImageHealth_25
+  - first:
+      213: -4843230034363399971
+    second: FillImageHealth_26
+  - first:
+      213: -484945759978520018
+    second: FillImageHealth_27
+  - first:
+      213: -1619817521666790381
+    second: FillImageHealth_28
+  - first:
+      213: 7791211966139094034
+    second: FillImageHealth_29
+  - first:
+      213: 7370519572906345854
+    second: FillImageHealth_30
+  - first:
+      213: -7510316134457608098
+    second: FillImageHealth_31
+  - first:
+      213: 6035566594747094875
+    second: FillImageHealth_32
+  - first:
+      213: 2642693356109220922
+    second: FillImageHealth_33
+  - first:
+      213: 1175605804780655546
+    second: FillImageHealth_34
+  - first:
+      213: 7754371000062265659
+    second: FillImageHealth_35
+  - first:
+      213: -487248507047194729
+    second: FillImageHealth_36
+  - first:
+      213: 4468121690654110831
+    second: FillImageHealth_37
+  - first:
+      213: 5061359000265527105
+    second: FillImageHealth_38
+  - first:
+      213: 5452719608939962420
+    second: FillImageHealth_39
+  - first:
+      213: -4118943349537502035
+    second: FillImageHealth_40
+  - first:
+      213: -8018117713936846631
+    second: FillImageHealth_41
+  - first:
+      213: 733399707893637635
+    second: FillImageHealth_42
+  - first:
+      213: 6570241016998753054
+    second: FillImageHealth_43
+  - first:
+      213: 3374770205400988002
+    second: FillImageHealth_44
+  - first:
+      213: -5745666103820799253
+    second: FillImageHealth_45
+  - first:
+      213: -4276806102182325746
+    second: FillImageHealth_46
+  - first:
+      213: 2825207214465114534
+    second: FillImageHealth_47
+  - first:
+      213: 2138377572168754538
+    second: FillImageHealth_48
+  - first:
+      213: -8441259059185149324
+    second: FillImageHealth_49
+  - first:
+      213: -6119300624223687872
+    second: FillImageHealth_50
+  - first:
+      213: 7799189732169688947
+    second: FillImageHealth_51
+  - first:
+      213: -3580265592217397496
+    second: FillImageHealth_52
+  - first:
+      213: 1824005254769295630
+    second: FillImageHealth_53
+  - first:
+      213: -3852196916716610205
+    second: FillImageHealth_54
+  - first:
+      213: -1886367472472671937
+    second: FillImageHealth_55
+  - first:
+      213: -4298591444028505489
+    second: FillImageHealth_56
+  - first:
+      213: 8723939188302363578
+    second: FillImageHealth_57
+  - first:
+      213: -1119468374520627444
+    second: FillImageHealth_58
+  - first:
+      213: -7590612639050634310
+    second: FillImageHealth_59
+  - first:
+      213: -377629803810164348
+    second: FillImageHealth_60
+  - first:
+      213: -1792852242667662001
+    second: FillImageHealth_61
+  - first:
+      213: 5340877056174380138
+    second: FillImageHealth_62
+  - first:
+      213: 7334082274412174147
+    second: FillImageHealth_63
+  - first:
+      213: -6140053230491068609
+    second: FillImageHealth_64
+  - first:
+      213: -6687920126132313888
+    second: FillImageHealth_65
+  - first:
+      213: -5776276281669201106
+    second: FillImageHealth_66
+  - first:
+      213: 5539937592191544289
+    second: FillImageHealth_67
+  - first:
+      213: 872344791025820138
+    second: FillImageHealth_68
+  - first:
+      213: 4081013764471740054
+    second: FillImageHealth_69
+  - first:
+      213: 8093810064959833821
+    second: FillImageHealth_70
+  - first:
+      213: 8326044710768946648
+    second: FillImageHealth_71
+  - first:
+      213: 7760654405407177774
+    second: FillImageHealth_72
+  - first:
+      213: 5337571253665630789
+    second: FillImageHealth_73
+  - first:
+      213: 7362198680538847686
+    second: FillImageHealth_74
+  - first:
+      213: 5789200428484158180
+    second: FillImageHealth_75
+  - first:
+      213: -6417226766891921115
+    second: FillImageHealth_76
+  - first:
+      213: -1552266526878304380
+    second: FillImageHealth_77
+  - first:
+      213: 6116264725448934907
+    second: FillImageHealth_78
+  - first:
+      213: 7021135627263758987
+    second: FillImageHealth_79
+  - first:
+      213: -3961077824020168135
+    second: FillImageHealth_80
+  - first:
+      213: -6202988672657529857
+    second: FillImageHealth_81
+  - first:
+      213: -8238544064983238291
+    second: FillImageHealth_82
+  - first:
+      213: 5010462803240932986
+    second: FillImageHealth_83
+  - first:
+      213: 1810307686622917800
+    second: FillImageHealth_84
+  - first:
+      213: -614976659668574311
+    second: FillImageHealth_85
+  - first:
+      213: -1956897248570613047
+    second: FillImageHealth_86
+  - first:
+      213: 1360883027336606353
+    second: FillImageHealth_87
+  - first:
+      213: 5700598608785446262
+    second: FillImageHealth_88
+  - first:
+      213: -4583037287442802119
+    second: FillImageHealth_89
+  - first:
+      213: -8946759073500817356
+    second: FillImageHealth_90
+  - first:
+      213: 1696092479610334785
+    second: FillImageHealth_91
+  - first:
+      213: -2538704463315709681
+    second: FillImageHealth_92
+  - first:
+      213: -4533024517191579347
+    second: FillImageHealth_93
+  - first:
+      213: -1287579842967702775
+    second: FillImageHealth_94
+  - first:
+      213: -7362999359656701552
+    second: FillImageHealth_95
+  - first:
+      213: 4185574150437472920
+    second: FillImageHealth_96
+  - first:
+      213: -2890608028857405520
+    second: FillImageHealth_97
+  - first:
+      213: 4157762664757215772
+    second: FillImageHealth_98
+  - first:
+      213: 3903436706880754875
+    second: FillImageHealth_99
+  - first:
+      213: 606505620815027230
+    second: FillImageHealth_100
+  - first:
+      213: 9154414676597709788
+    second: FillImageHealth_101
+  - first:
+      213: -3527959034156625695
+    second: FillImageHealth_102
+  - first:
+      213: -853890368556562960
+    second: FillImageHealth_103
+  - first:
+      213: 136074825367445292
+    second: FillImageHealth_104
+  - first:
+      213: -1473474676826100660
+    second: FillImageHealth_105
+  - first:
+      213: 7887389234304742198
+    second: FillImageHealth_106
+  - first:
+      213: 1206155506005909891
+    second: FillImageHealth_107
+  - first:
+      213: 6949349660437050019
+    second: FillImageHealth_108
+  - first:
+      213: 5273227688781394129
+    second: FillImageHealth_109
+  - first:
+      213: 8306937903178187500
+    second: FillImageHealth_110
+  - first:
+      213: -1871531635742446091
+    second: FillImageHealth_111
+  - first:
+      213: -5693791720826417266
+    second: FillImageHealth_112
+  - first:
+      213: -4492571763793401820
+    second: FillImageHealth_113
+  - first:
+      213: 1181121658539060598
+    second: FillImageHealth_114
+  - first:
+      213: 7018950522580711776
+    second: FillImageHealth_115
+  - first:
+      213: -8059017238271376857
+    second: FillImageHealth_116
+  - first:
+      213: 7527726285240505580
+    second: FillImageHealth_117
+  - first:
+      213: 1896565726294914169
+    second: FillImageHealth_118
+  - first:
+      213: 4263595310929225773
+    second: FillImageHealth_119
+  - first:
+      213: -4469940788329604613
+    second: FillImageHealth_120
+  - first:
+      213: 43342017205255419
+    second: FillImageHealth_121
+  - first:
+      213: 7550079316373047237
+    second: FillImageHealth_122
+  - first:
+      213: 3216872648526919046
+    second: FillImageHealth_123
+  - first:
+      213: 1962530765343271018
+    second: FillImageHealth_124
+  - first:
+      213: 6247879561282290351
+    second: FillImageHealth_125
+  - first:
+      213: -5807109026285590384
+    second: FillImageHealth_126
+  - first:
+      213: 5660367211743459220
+    second: FillImageHealth_127
+  - first:
+      213: 3644080493746681231
+    second: FillImageHealth_128
+  - first:
+      213: -5913245398639001272
+    second: FillImageHealth_129
+  - first:
+      213: -5980327911789867620
+    second: FillImageHealth_130
+  - first:
+      213: -7503611111215317069
+    second: FillImageHealth_131
+  - first:
+      213: 336197377221171181
+    second: FillImageHealth_132
+  - first:
+      213: 2478070134277774707
+    second: FillImageHealth_133
+  - first:
+      213: -4563033893401857391
+    second: FillImageHealth_134
+  - first:
+      213: -5795568182985452257
+    second: FillImageHealth_135
+  - first:
+      213: 5349170724979948420
+    second: FillImageHealth_136
+  - first:
+      213: -5628049163840567255
+    second: FillImageHealth_137
+  - first:
+      213: -7586562338583264975
+    second: FillImageHealth_138
+  - first:
+      213: -2722186819149868733
+    second: FillImageHealth_139
+  - first:
+      213: 5463493904523632147
+    second: FillImageHealth_140
+  - first:
+      213: -3642308223843167079
+    second: FillImageHealth_141
+  - first:
+      213: 1626424558060175581
+    second: FillImageHealth_142
+  - first:
+      213: -449147611542455549
+    second: FillImageHealth_143
+  - first:
+      213: -5048310318291702826
+    second: FillImageHealth_144
+  - first:
+      213: 3274693305518992918
+    second: FillImageHealth_145
+  - first:
+      213: 3586106319400253550
+    second: FillImageHealth_146
+  - first:
+      213: 4977501568743938490
+    second: FillImageHealth_147
+  - first:
+      213: -4745115404876711741
+    second: FillImageHealth_148
+  - first:
+      213: 6295084312472308815
+    second: FillImageHealth_149
+  - first:
+      213: -1949152180554995919
+    second: FillImageHealth_150
+  - first:
+      213: -7683575659094997943
+    second: FillImageHealth_151
+  - first:
+      213: -7333791469934126350
+    second: FillImageHealth_152
+  - first:
+      213: -390269108616788044
+    second: FillImageHealth_153
+  - first:
+      213: 3066017741516918990
+    second: FillImageHealth_154
+  - first:
+      213: 2862232588326950156
+    second: FillImageHealth_155
+  - first:
+      213: -8052337166339204543
+    second: FillImageHealth_156
+  - first:
+      213: 8887416984405699302
+    second: FillImageHealth_157
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FillImageHealth_0
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 391
+        width: 828
+        height: 271
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a34ba405293ee6b10800000000000000
+      internalID: 1976767504014029882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_1
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 991
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d4b76dd30f9fea70800000000000000
+      internalID: 8858473831009334485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_2
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 972
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e8a8128ff8b04a50800000000000000
+      internalID: 6503401269461821665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_3
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 807
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 523f0fd733bdd98c0800000000000000
+      internalID: -3990792680577633499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_4
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 953
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2f685e3eed7af650800000000000000
+      internalID: 6267460293641137964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_5
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 944
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 471fde26a881938d0800000000000000
+      internalID: -2866232705200295564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_6
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 895
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d699a61a2d73ed410800000000000000
+      internalID: 1503700703379102061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_7
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 864
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dbd13f4651536040800000000000000
+      internalID: 4639641472259447767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_8
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 852
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00bd25affe5b16490800000000000000
+      internalID: -7754717041053738240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_9
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 846
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e55936e9d5594480800000000000000
+      internalID: -8914499593044404768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_10
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 836
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2535fc8fe6b782820800000000000000
+      internalID: 2893698477136499538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_11
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 800
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b947ab9fc46c03130800000000000000
+      internalID: 3544550940650140827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_12
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 774
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4cde6bffb6ca2bc0800000000000000
+      internalID: -3807012007128933297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_13
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 768
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 862ef100355b11b70800000000000000
+      internalID: 8868068509358219880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_14
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 750
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f13636520470051c0800000000000000
+      internalID: -4517102454166035681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_15
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 731
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c626bdab910067d90800000000000000
+      internalID: -7100487651993886100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_16
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 934
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c91f3781c00dab350800000000000000
+      internalID: 6033363401184637340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_17
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 903
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd1e9ee26a7a9fd90800000000000000
+      internalID: -7063430208360422945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_18
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 824
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fea5f663436399770800000000000000
+      internalID: 8617978959829621487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_19
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 792
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 057093cb729eb12e0800000000000000
+      internalID: -2153871639895799984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_20
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 951
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 180dfaf9aa82f6710800000000000000
+      internalID: 1688613098575876225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_21
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 0
+        width: 1297
+        height: 744
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c81ba905359422c10800000000000000
+      internalID: 2027263404453573004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_22
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 744
+        width: 787
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 543f655d9a659bc70800000000000000
+      internalID: 8987309818823242565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_23
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 944
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b11f98f3d75da550800000000000000
+      internalID: 6173687232115708341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_24
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 1008
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c17335b2fa6ae6a0800000000000000
+      internalID: -6419200728208543289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_25
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 992
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43a0265a71fdbdc40800000000000000
+      internalID: 5538265459434064436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_26
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 984
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd0444cb1f369ccb0800000000000000
+      internalID: -4843230034363399971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_27
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 960
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e22062196602549f0800000000000000
+      internalID: -484945759978520018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_28
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 952
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31ce814db804589e0800000000000000
+      internalID: -1619817521666790381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_29
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 896
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2145e7be002ff1c60800000000000000
+      internalID: 7791211966139094034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_30
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 768
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7585293088594660800000000000000
+      internalID: 7370519572906345854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_31
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 758
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e58f4ce544ff5c790800000000000000
+      internalID: -7510316134457608098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_32
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 976
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b575d1217d3a2c350800000000000000
+      internalID: 6035566594747094875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_33
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 859
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3ccc251b9bbca420800000000000000
+      internalID: 2642693356109220922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_34
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 819
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab396d53047905010800000000000000
+      internalID: 1175605804780655546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_35
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 999
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b394d43175f0d9b60800000000000000
+      internalID: 7754371000062265659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_36
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 928
+        width: 12
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79fcc1c7012fc39f0800000000000000
+      internalID: -487248507047194729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_37
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 807
+        width: 14
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f64f7a82105f10e30800000000000000
+      internalID: 4468121690654110831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_38
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 784
+        width: 11
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14f8d8bc13f8d3640800000000000000
+      internalID: 5061359000265527105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_39
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 983
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4306ca63893fbab40800000000000000
+      internalID: 5452719608939962420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_40
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 965
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dac0cd0c8d296d6c0800000000000000
+      internalID: -4118943349537502035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_41
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 856
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d0f685cb6ce9b090800000000000000
+      internalID: -8018117713936846631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_42
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 776
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 302206b062f8d2a00800000000000000
+      internalID: 733399707893637635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_43
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 768
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1379e2f46f2e2b50800000000000000
+      internalID: 6570241016998753054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_44
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 952
+        width: 6
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2697f7b1f9795de20800000000000000
+      internalID: 3374770205400988002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_45
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 904
+        width: 6
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be232c3de1b4340b0800000000000000
+      internalID: -5745666103820799253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_46
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 880
+        width: 6
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e021332728bb5a4c0800000000000000
+      internalID: -4276806102182325746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_47
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 871
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a160133ef6253720800000000000000
+      internalID: 2825207214465114534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_48
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 744
+        width: 6
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a65e7c0821b0dad10800000000000000
+      internalID: 2138377572168754538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_49
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 0
+        width: 479
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47a98300c9f9ada80800000000000000
+      internalID: -8441259059185149324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_50
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 874
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04b2253f080e31ba0800000000000000
+      internalID: -6119300624223687872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_51
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 724
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37729d15db94c3c60800000000000000
+      internalID: 7799189732169688947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_52
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 719
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8071456b967505ec0800000000000000
+      internalID: -3580265592217397496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_53
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 710
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0148fe7d1b205910800000000000000
+      internalID: 1824005254769295630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_54
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 692
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36d5046605f3a8ac0800000000000000
+      internalID: -3852196916716610205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_55
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 686
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f393a6737c642d5e0800000000000000
+      internalID: -1886367472472671937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_56
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 671
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f62c5284bd55854c0800000000000000
+      internalID: -4298591444028505489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_57
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 662
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abb3fd86878a11970800000000000000
+      internalID: 8723939188302363578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_58
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 654
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0ff96fc179d670f0800000000000000
+      internalID: -1119468374520627444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_59
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 635
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abbebc5850ab8a690800000000000000
+      internalID: -7590612639050634310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_60
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 648
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4817b47b1b362caf0800000000000000
+      internalID: -377629803810164348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_61
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 627
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f45180d52628e17e0800000000000000
+      internalID: -1792852242667662001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_62
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 614
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a64de4aa26b9e1a40800000000000000
+      internalID: 5340877056174380138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_63
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 606
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34b93df88f4e7c560800000000000000
+      internalID: 7334082274412174147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_64
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 596
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3717964e162acaa0800000000000000
+      internalID: -6140053230491068609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_65
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 566
+        width: 8
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e0a2b3541cbf23a0800000000000000
+      internalID: -6687920126132313888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_66
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 531
+        width: 10
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e23d79a635b86dfa0800000000000000
+      internalID: -5776276281669201106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_67
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 526
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ebe86463efc1ec40800000000000000
+      internalID: 5539937592191544289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_68
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 493
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae1a1ce27f03b1c00800000000000000
+      internalID: 872344791025820138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_69
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 510
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69651da856ca2a830800000000000000
+      internalID: 4081013764471740054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_70
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 479
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd689690f5df25070800000000000000
+      internalID: 8093810064959833821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_71
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 446
+        width: 10
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dd27691d8d0c8370800000000000000
+      internalID: 8326044710768946648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_72
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 422
+        width: 10
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2c7dd2601263bb60800000000000000
+      internalID: 7760654405407177774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_73
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 406
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54a831a86ccd21a40800000000000000
+      internalID: 5337571253665630789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_74
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 368
+        width: 10
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c91e5f71b8cb2660800000000000000
+      internalID: 7362198680538847686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_75
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 359
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e266510e1f575050800000000000000
+      internalID: 5789200428484158180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_76
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 316
+        width: 10
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5215744614e61f6a0800000000000000
+      internalID: -6417226766891921115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_77
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 350
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48770bc61dd357ae0800000000000000
+      internalID: -1552266526878304380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_78
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 301
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf5c2a8cc5651e450800000000000000
+      internalID: 6116264725448934907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_79
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 296
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8255e647a5107160800000000000000
+      internalID: 7021135627263758987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_80
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 279
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 932c99ba4bc6709c0800000000000000
+      internalID: -3961077824020168135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_81
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 286
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff3e974caae8ae9a0800000000000000
+      internalID: -6202988672657529857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_82
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 272
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d69754492dfcaad80800000000000000
+      internalID: -8238544064983238291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_83
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 264
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a76db7b7f5db88540800000000000000
+      internalID: 5010462803240932986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_84
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 256
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a47153ef318f1910800000000000000
+      internalID: 1810307686622917800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_85
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 256
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99f5c4f7cf92777f0800000000000000
+      internalID: -614976659668574311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_86
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 246
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c2620d0254b7d4e0800000000000000
+      internalID: -1956897248570613047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_87
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 248
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 192b14137e3d2e210800000000000000
+      internalID: 1360883027336606353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_88
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 243
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6751ebb4b389c1f40800000000000000
+      internalID: 5700598608785446262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_89
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 239
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93a1a997ed7c560c0800000000000000
+      internalID: -4583037287442802119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_90
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 231
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4381bfc460ab6d380800000000000000
+      internalID: -8946759073500817356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_91
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 240
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14ea269bf1bb98710800000000000000
+      internalID: 1696092479610334785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_92
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 232
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f015e52cdb5b4ccd0800000000000000
+      internalID: -2538704463315709681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_93
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 214
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d29c8a6f7367711c0800000000000000
+      internalID: -4533024517191579347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_94
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 222
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 903f4f764f8912ee0800000000000000
+      internalID: -1287579842967702775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_95
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 216
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 091db3ed71f51d990800000000000000
+      internalID: -7362999359656701552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_96
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 208
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89a02e18385261a30800000000000000
+      internalID: 4185574150437472920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_97
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 200
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bfef07105f72e7d0800000000000000
+      internalID: -2890608028857405520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_98
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 192
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c124c356d1753b930800000000000000
+      internalID: 4157762664757215772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_99
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 184
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb419dce00bcb2630800000000000000
+      internalID: 3903436706880754875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_100
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 176
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1c15f216adba6800800000000000000
+      internalID: 606505620815027230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_101
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 183
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdb9a3d65a30b0f70800000000000000
+      internalID: 9154414676597709788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_102
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 179
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e0d6fa43fb2a0fc0800000000000000
+      internalID: -3527959034156625695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_103
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 158
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f50f01eb3f5624f0800000000000000
+      internalID: -853890368556562960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_104
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 168
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2f56ec255f63e100800000000000000
+      internalID: 136074825367445292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_105
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 174
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4c2f36969a2d8be0800000000000000
+      internalID: -1473474676826100660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_106
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 165
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63379fb28b2a57d60800000000000000
+      internalID: 7887389234304742198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_107
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 138
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3812d5fca002db010800000000000000
+      internalID: 1206155506005909891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_108
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 152
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a2f45a62bc017060800000000000000
+      internalID: 6949349660437050019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_109
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 144
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d0b199e4a44e2940800000000000000
+      internalID: 5273227688781394129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_110
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 152
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce20a2ac20c284370800000000000000
+      internalID: 8306937903178187500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_111
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 152
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fd6aa1a4ebf606e0800000000000000
+      internalID: -1871531635742446091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_112
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 126
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8fc41fc8969bf0b0800000000000000
+      internalID: -5693791720826417266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_113
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 136
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 428e42398cd27a1c0800000000000000
+      internalID: -4492571763793401820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_114
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 136
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67dadbdf3ef246010800000000000000
+      internalID: 1181121658539060598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_115
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 138
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0693772ff42586160800000000000000
+      internalID: 7018950522580711776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_116
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 130
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 722c512358e982090800000000000000
+      internalID: -8059017238271376857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_117
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 127
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce4912e3c2bd77860800000000000000
+      internalID: 7527726285240505580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_118
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 120
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9743df8ca74f15a10800000000000000
+      internalID: 1896565726294914169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_119
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 86
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2825f588555b2b30800000000000000
+      internalID: 4263595310929225773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_120
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 104
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf99598298497f1c0800000000000000
+      internalID: -4469940788329604613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_121
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 103
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfc3e53c55bf99000800000000000000
+      internalID: 43342017205255419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_122
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 96
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c7807ed22547c860800000000000000
+      internalID: 7550079316373047237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_123
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 93
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 685fd1f41a0a4ac20800000000000000
+      internalID: 3216872648526919046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_124
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 102
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a68af09455f4c3b10800000000000000
+      internalID: 1962530765343271018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_125
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 88
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa287a9bb5de4b650800000000000000
+      internalID: 6247879561282290351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_126
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 80
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0986844ab11096fa0800000000000000
+      internalID: -5807109026285590384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_127
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 75
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 497bc3a3df9ad8e40800000000000000
+      internalID: 5660367211743459220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_128
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 68
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8573b2e6ef529230800000000000000
+      internalID: 3644080493746681231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_129
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 72
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 841c860c3aeefeda0800000000000000
+      internalID: -5913245398639001272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_130
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 71
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9d4969037b910da0800000000000000
+      internalID: -5980327911789867620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_131
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 59
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bf365f3371ddd790800000000000000
+      internalID: -7503611111215317069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_132
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 64
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de79fabbbb96aa400800000000000000
+      internalID: 336197377221171181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_133
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 59
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37d912268afd36220800000000000000
+      internalID: 2478070134277774707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_134
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 52
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 192f6b599d8dca0c0800000000000000
+      internalID: -4563033893401857391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_135
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 44
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f15989d9171029fa0800000000000000
+      internalID: -5795568182985452257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_136
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 48
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48b3959ee621c3a40800000000000000
+      internalID: 5349170724979948420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_137
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 44
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92849daaa1725e1b0800000000000000
+      internalID: -5628049163840567255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_138
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 50
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13143669fbd17b690800000000000000
+      internalID: -7586562338583264975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_139
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 23
+        width: 10
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3415250c289d83ad0800000000000000
+      internalID: -2722186819149868733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_140
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 40
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31e94a362ca32db40800000000000000
+      internalID: 5463493904523632147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_141
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 39
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 994185bd7fbe37dc0800000000000000
+      internalID: -3642308223843167079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_142
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 35
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd00625b488329610800000000000000
+      internalID: 1626424558060175581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_143
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 39
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30bfb4280ae44c9f0800000000000000
+      internalID: -449147611542455549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_144
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 40
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dba84a338cc0f9b0800000000000000
+      internalID: -5048310318291702826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_145
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 33
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61e2fc7163c027d20800000000000000
+      internalID: 3274693305518992918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_146
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 23
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e68b2ae82b864c130800000000000000
+      internalID: 3586106319400253550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_147
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 29
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab99ee90e43a31540800000000000000
+      internalID: 4977501568743938490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_148
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 23
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c8f6121ea6f52eb0800000000000000
+      internalID: -4745115404876711741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_149
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 26
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4ccb0454d1ac5750800000000000000
+      internalID: 6295084312472308815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_150
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 7
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13767d83b6833f4e0800000000000000
+      internalID: -1949152180554995919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_151
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 16
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9440ecab5a47e5590800000000000000
+      internalID: -7683575659094997943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_152
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 3
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fa59c1a383293a90800000000000000
+      internalID: -7333791469934126350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_153
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 16
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b7861e305c759af0800000000000000
+      internalID: -390269108616788044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_154
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 17
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec0592634eeac8a20800000000000000
+      internalID: 3066017741516918990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_155
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 10
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0556c3df51b8b720800000000000000
+      internalID: 2862232588326950156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_156
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 0
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14a1da4a20a504090800000000000000
+      internalID: -8052337166339204543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FillImageHealth_157
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 5
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ea6646e8a2765b70800000000000000
+      internalID: 8887416984405699302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 730af1381781b364893b605d96c838b2
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      FillImageHealth_0: 1976767504014029882
+      FillImageHealth_1: 8858473831009334485
+      FillImageHealth_10: 2893698477136499538
+      FillImageHealth_100: 606505620815027230
+      FillImageHealth_101: 9154414676597709788
+      FillImageHealth_102: -3527959034156625695
+      FillImageHealth_103: -853890368556562960
+      FillImageHealth_104: 136074825367445292
+      FillImageHealth_105: -1473474676826100660
+      FillImageHealth_106: 7887389234304742198
+      FillImageHealth_107: 1206155506005909891
+      FillImageHealth_108: 6949349660437050019
+      FillImageHealth_109: 5273227688781394129
+      FillImageHealth_11: 3544550940650140827
+      FillImageHealth_110: 8306937903178187500
+      FillImageHealth_111: -1871531635742446091
+      FillImageHealth_112: -5693791720826417266
+      FillImageHealth_113: -4492571763793401820
+      FillImageHealth_114: 1181121658539060598
+      FillImageHealth_115: 7018950522580711776
+      FillImageHealth_116: -8059017238271376857
+      FillImageHealth_117: 7527726285240505580
+      FillImageHealth_118: 1896565726294914169
+      FillImageHealth_119: 4263595310929225773
+      FillImageHealth_12: -3807012007128933297
+      FillImageHealth_120: -4469940788329604613
+      FillImageHealth_121: 43342017205255419
+      FillImageHealth_122: 7550079316373047237
+      FillImageHealth_123: 3216872648526919046
+      FillImageHealth_124: 1962530765343271018
+      FillImageHealth_125: 6247879561282290351
+      FillImageHealth_126: -5807109026285590384
+      FillImageHealth_127: 5660367211743459220
+      FillImageHealth_128: 3644080493746681231
+      FillImageHealth_129: -5913245398639001272
+      FillImageHealth_13: 8868068509358219880
+      FillImageHealth_130: -5980327911789867620
+      FillImageHealth_131: -7503611111215317069
+      FillImageHealth_132: 336197377221171181
+      FillImageHealth_133: 2478070134277774707
+      FillImageHealth_134: -4563033893401857391
+      FillImageHealth_135: -5795568182985452257
+      FillImageHealth_136: 5349170724979948420
+      FillImageHealth_137: -5628049163840567255
+      FillImageHealth_138: -7586562338583264975
+      FillImageHealth_139: -2722186819149868733
+      FillImageHealth_14: -4517102454166035681
+      FillImageHealth_140: 5463493904523632147
+      FillImageHealth_141: -3642308223843167079
+      FillImageHealth_142: 1626424558060175581
+      FillImageHealth_143: -449147611542455549
+      FillImageHealth_144: -5048310318291702826
+      FillImageHealth_145: 3274693305518992918
+      FillImageHealth_146: 3586106319400253550
+      FillImageHealth_147: 4977501568743938490
+      FillImageHealth_148: -4745115404876711741
+      FillImageHealth_149: 6295084312472308815
+      FillImageHealth_15: -7100487651993886100
+      FillImageHealth_150: -1949152180554995919
+      FillImageHealth_151: -7683575659094997943
+      FillImageHealth_152: -7333791469934126350
+      FillImageHealth_153: -390269108616788044
+      FillImageHealth_154: 3066017741516918990
+      FillImageHealth_155: 2862232588326950156
+      FillImageHealth_156: -8052337166339204543
+      FillImageHealth_157: 8887416984405699302
+      FillImageHealth_16: 6033363401184637340
+      FillImageHealth_17: -7063430208360422945
+      FillImageHealth_18: 8617978959829621487
+      FillImageHealth_19: -2153871639895799984
+      FillImageHealth_2: 6503401269461821665
+      FillImageHealth_20: 1688613098575876225
+      FillImageHealth_21: 2027263404453573004
+      FillImageHealth_22: 8987309818823242565
+      FillImageHealth_23: 6173687232115708341
+      FillImageHealth_24: -6419200728208543289
+      FillImageHealth_25: 5538265459434064436
+      FillImageHealth_26: -4843230034363399971
+      FillImageHealth_27: -484945759978520018
+      FillImageHealth_28: -1619817521666790381
+      FillImageHealth_29: 7791211966139094034
+      FillImageHealth_3: -3990792680577633499
+      FillImageHealth_30: 7370519572906345854
+      FillImageHealth_31: -7510316134457608098
+      FillImageHealth_32: 6035566594747094875
+      FillImageHealth_33: 2642693356109220922
+      FillImageHealth_34: 1175605804780655546
+      FillImageHealth_35: 7754371000062265659
+      FillImageHealth_36: -487248507047194729
+      FillImageHealth_37: 4468121690654110831
+      FillImageHealth_38: 5061359000265527105
+      FillImageHealth_39: 5452719608939962420
+      FillImageHealth_4: 6267460293641137964
+      FillImageHealth_40: -4118943349537502035
+      FillImageHealth_41: -8018117713936846631
+      FillImageHealth_42: 733399707893637635
+      FillImageHealth_43: 6570241016998753054
+      FillImageHealth_44: 3374770205400988002
+      FillImageHealth_45: -5745666103820799253
+      FillImageHealth_46: -4276806102182325746
+      FillImageHealth_47: 2825207214465114534
+      FillImageHealth_48: 2138377572168754538
+      FillImageHealth_49: -8441259059185149324
+      FillImageHealth_5: -2866232705200295564
+      FillImageHealth_50: -6119300624223687872
+      FillImageHealth_51: 7799189732169688947
+      FillImageHealth_52: -3580265592217397496
+      FillImageHealth_53: 1824005254769295630
+      FillImageHealth_54: -3852196916716610205
+      FillImageHealth_55: -1886367472472671937
+      FillImageHealth_56: -4298591444028505489
+      FillImageHealth_57: 8723939188302363578
+      FillImageHealth_58: -1119468374520627444
+      FillImageHealth_59: -7590612639050634310
+      FillImageHealth_6: 1503700703379102061
+      FillImageHealth_60: -377629803810164348
+      FillImageHealth_61: -1792852242667662001
+      FillImageHealth_62: 5340877056174380138
+      FillImageHealth_63: 7334082274412174147
+      FillImageHealth_64: -6140053230491068609
+      FillImageHealth_65: -6687920126132313888
+      FillImageHealth_66: -5776276281669201106
+      FillImageHealth_67: 5539937592191544289
+      FillImageHealth_68: 872344791025820138
+      FillImageHealth_69: 4081013764471740054
+      FillImageHealth_7: 4639641472259447767
+      FillImageHealth_70: 8093810064959833821
+      FillImageHealth_71: 8326044710768946648
+      FillImageHealth_72: 7760654405407177774
+      FillImageHealth_73: 5337571253665630789
+      FillImageHealth_74: 7362198680538847686
+      FillImageHealth_75: 5789200428484158180
+      FillImageHealth_76: -6417226766891921115
+      FillImageHealth_77: -1552266526878304380
+      FillImageHealth_78: 6116264725448934907
+      FillImageHealth_79: 7021135627263758987
+      FillImageHealth_8: -7754717041053738240
+      FillImageHealth_80: -3961077824020168135
+      FillImageHealth_81: -6202988672657529857
+      FillImageHealth_82: -8238544064983238291
+      FillImageHealth_83: 5010462803240932986
+      FillImageHealth_84: 1810307686622917800
+      FillImageHealth_85: -614976659668574311
+      FillImageHealth_86: -1956897248570613047
+      FillImageHealth_87: 1360883027336606353
+      FillImageHealth_88: 5700598608785446262
+      FillImageHealth_89: -4583037287442802119
+      FillImageHealth_9: -8914499593044404768
+      FillImageHealth_90: -8946759073500817356
+      FillImageHealth_91: 1696092479610334785
+      FillImageHealth_92: -2538704463315709681
+      FillImageHealth_93: -4533024517191579347
+      FillImageHealth_94: -1287579842967702775
+      FillImageHealth_95: -7362999359656701552
+      FillImageHealth_96: 4185574150437472920
+      FillImageHealth_97: -2890608028857405520
+      FillImageHealth_98: 4157762664757215772
+      FillImageHealth_99: 3903436706880754875
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
