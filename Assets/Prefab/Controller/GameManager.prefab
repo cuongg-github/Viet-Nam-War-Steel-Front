@@ -10,6 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 6278778994244923255}
   - component: {fileID: 2605358540506649896}
+  - component: {fileID: 3498589507490450836}
+  - component: {fileID: 8475550544060841195}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -49,3 +51,31 @@ MonoBehaviour:
   timeLimit: 120
   winPanel: {fileID: 0}
   losePanel: {fileID: 0}
+--- !u!114 &3498589507490450836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4651785534225201340}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ba28b41e0f55484d8b505e9b4593712, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pauseButton: {fileID: 0}
+  pauseScreen: {fileID: 0}
+--- !u!114 &8475550544060841195
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4651785534225201340}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e57b883f85ad8f48b76789c1833dffa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timerText: {fileID: 0}
+  gameManager: {fileID: 2605358540506649896}

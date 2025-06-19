@@ -5,7 +5,8 @@ public class GameManager : MonoBehaviour
 {
     public int requiredGunsDestroyed = 3;
     public int requiredTanksDestroyed = 5;
-    public float timeLimit = 120f; 
+    public float timeLimit = 120f;
+    private bool detected = false;
 
     public GameObject winPanel;
     public GameObject losePanel;
@@ -78,5 +79,15 @@ public class GameManager : MonoBehaviour
     public float GetTimeRemaining()
     {
         return timer;
+    }
+
+    public void OnPlayerDetected()
+    {
+        if (!detected)
+        {
+            detected = true;
+            Debug.Log("Bị phát hiện gameover");
+            LoseGame();
+        }
     }
 }
