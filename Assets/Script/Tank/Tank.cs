@@ -10,13 +10,17 @@ public class Tank : MonoBehaviour
     public int maxHealth = 100;
     public float moveSpeed = 3f;
     public float rotateSpeed = 100f;
+    public AudioClip movementSound;
+    public GameObject destroySFX;
 
+    private AudioSource audioSource;
     private int currentHealth;
     Vector2 moveAmount;
     public float doublerotate = 10f;
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        audioSource = GetComponent<AudioSource>();
         currentHealth = maxHealth;
         rb.angularDamping = 10f;
         rb.linearDamping = 10f;
@@ -64,17 +68,31 @@ public class Tank : MonoBehaviour
 
     void Die()
     {
+        Instantiate(destroySFX, transform.position, Quaternion.identity);
         Destroy(gameObject);
     }
 
     void trackStart()
     {
+        if (!audioSource.isPlaying)
+        {
+            audioSource.clip = movementSound;
+            audioSource.loop = true;
+            audioSource.Play();
+        }
+
         trackLeft.SetBool("isMoving", true);
         trackRight.SetBool("isMoving", true);
     }
 
     void trackStop()
     {
+        if (audioSource.clip == movementSound)
+        {
+            audioSource.Stop();
+            audioSource.clip = null;
+        }
+
         trackLeft.SetBool("isMoving", false);
         trackRight.SetBool("isMoving", false);
     }
