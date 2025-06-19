@@ -5,7 +5,8 @@ public class TankEnemy : MonoBehaviour
     public int maxHealth = 100;
     private int currentHealth;
     private bool isDead = false;
-
+    public GameObject destroyEffectPrefab;
+    public GameObject explodeEffectPrefab;
     public HealthBar healthBar;
     public Rigidbody2D rb;
     public PolygonCollider2D poly;
@@ -45,6 +46,8 @@ public class TankEnemy : MonoBehaviour
 
     void Die()
     {
+        Instantiate(explodeEffectPrefab, transform.position, Quaternion.identity);
+        Instantiate(destroyEffectPrefab, transform.position, Quaternion.identity);
         Destroy(gameObject);
     }
     void SpawnReward()
