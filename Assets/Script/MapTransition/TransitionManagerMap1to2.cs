@@ -16,8 +16,10 @@ public class NewMonoBehaviourScript : MonoBehaviour
     public Sprite[] images;            // Mảng hình ảnh đi kèm mỗi dòng
     private int currentLine = 0;       // Dòng hiện tại
 
+    private AudioManager audioManager;
     void Start()
     {
+        audioManager = FindObjectOfType<AudioManager>();
         nextButton.SetActive(true);
         skipButton.SetActive(true);    // Đảm bảo nút skip luôn hiện
         introText.text = "";           // Ban đầu không có text nào
@@ -40,10 +42,9 @@ public class NewMonoBehaviourScript : MonoBehaviour
             introText.text = "";
             skipButton.SetActive(false);  // Tắt nút Skip
             nextButton.SetActive(false);
-
-            // Ẩn canvas hiện tại và hiển thị canvas mới (main menu hoặc gameplay)
             introCanvas.SetActive(false);  // Ẩn canvas giới thiệu
             mainMenuCanvas.SetActive(true); // Hiển thị canvas chính
+            audioManager.StopMusic();
         }
     }
     public void SkipIntro()
@@ -53,12 +54,14 @@ public class NewMonoBehaviourScript : MonoBehaviour
         nextButton.SetActive(false);
         introCanvas.SetActive(false);
         mainMenuCanvas.SetActive(true);
+        audioManager.StopMusic();
+
+
     }
 
-    // Hàm này hiển thị dòng text và hình ảnh tương ứng
     void ShowLine()
     {
-        introText.text = lines[currentLine];  // Hiển thị dòng text
+        introText.text = lines[currentLine]; 
         introImage.sprite = images[currentLine];  // Thay đổi hình ảnh tương ứng
     }
 }
