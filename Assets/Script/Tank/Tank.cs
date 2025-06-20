@@ -12,7 +12,7 @@ public class Tank : MonoBehaviour
     public float rotateSpeed = 100f;
     public AudioClip movementSound;
     public GameObject destroySFX;
-
+    public HealthSlider healthSlider;
     private AudioSource audioSource;
     private int currentHealth;
     Vector2 moveAmount;
@@ -22,6 +22,7 @@ public class Tank : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         audioSource = GetComponent<AudioSource>();
         currentHealth = maxHealth;
+        healthSlider.SetMaxHealth(maxHealth);
         rb.angularDamping = 10f;
         rb.linearDamping = 10f;
         rb.gravityScale = 0;
@@ -60,6 +61,7 @@ public class Tank : MonoBehaviour
     public void TakeDamage(int damage)
     {
         currentHealth -= damage;
+        healthSlider.SetHeath(currentHealth);
         if (currentHealth <= 0)
         {
             Die();
