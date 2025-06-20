@@ -1,0 +1,689 @@
+fileFormatVersion: 2
+guid: 2597909d7b81dca40bec363ea6e70b0c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2659149816582369631
+    second: hand-drawn-video-game-set-elements_0
+  - first:
+      213: -7370182619243189915
+    second: hand-drawn-video-game-set-elements_1
+  - first:
+      213: 7849106767485076380
+    second: hand-drawn-video-game-set-elements_2
+  - first:
+      213: -9042227681396850528
+    second: hand-drawn-video-game-set-elements_3
+  - first:
+      213: 3723551318255275404
+    second: hand-drawn-video-game-set-elements_4
+  - first:
+      213: -5996461908708566936
+    second: hand-drawn-video-game-set-elements_5
+  - first:
+      213: 7177741243256259466
+    second: hand-drawn-video-game-set-elements_6
+  - first:
+      213: 4053144518002977845
+    second: hand-drawn-video-game-set-elements_7
+  - first:
+      213: -3254920254784252633
+    second: hand-drawn-video-game-set-elements_8
+  - first:
+      213: 2268880951380653382
+    second: hand-drawn-video-game-set-elements_9
+  - first:
+      213: -3304101356341499283
+    second: hand-drawn-video-game-set-elements_10
+  - first:
+      213: 135064741819285437
+    second: hand-drawn-video-game-set-elements_11
+  - first:
+      213: 1666036555800734982
+    second: hand-drawn-video-game-set-elements_12
+  - first:
+      213: -8961069463189705195
+    second: hand-drawn-video-game-set-elements_13
+  - first:
+      213: 127599478969435415
+    second: hand-drawn-video-game-set-elements_14
+  - first:
+      213: 4322534443549728904
+    second: hand-drawn-video-game-set-elements_15
+  - first:
+      213: 8027709833309016451
+    second: hand-drawn-video-game-set-elements_16
+  - first:
+      213: -8009633829122005991
+    second: hand-drawn-video-game-set-elements_17
+  - first:
+      213: -4234130053388210693
+    second: hand-drawn-video-game-set-elements_18
+  - first:
+      213: -965882868728343263
+    second: hand-drawn-video-game-set-elements_19
+  - first:
+      213: -325289587374718431
+    second: hand-drawn-video-game-set-elements_20
+  - first:
+      213: -4723675926589652776
+    second: hand-drawn-video-game-set-elements_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: hand-drawn-video-game-set-elements_0
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 967
+        width: 179
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f51ffed5ba237e420800000000000000
+      internalID: 2659149816582369631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-drawn-video-game-set-elements_1
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 967
+        width: 179
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 569604ae4f9d7b990800000000000000
+      internalID: -7370182619243189915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-drawn-video-game-set-elements_2
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 967
+        width: 179
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c930018c401adec60800000000000000
+      internalID: 7849106767485076380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-drawn-video-game-set-elements_3
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 991
+        width: 412
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a00320e4dd838280800000000000000
+      internalID: -9042227681396850528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-drawn-video-game-set-elements_4
+      rect:
+        serializedVersion: 2
+        x: 1446
+        y: 555
+        width: 432
+        height: 583
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8d0b8b1236bca330800000000000000
+      internalID: 3723551318255275404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-drawn-video-game-set-elements_5
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 712
+        width: 179
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 868d3462aa948cca0800000000000000
+      internalID: -5996461908708566936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-drawn-video-game-set-elements_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 712
+        width: 179
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a83c5f5a1a57c9360800000000000000
+      internalID: 7177741243256259466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-drawn-video-game-set-elements_7
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 712
+        width: 179
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53ca3e2f679af3830800000000000000
+      internalID: 4053144518002977845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-drawn-video-game-set-elements_8
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 811
+        width: 412
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7255c59064334d2d0800000000000000
+      internalID: -3254920254784252633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-drawn-video-game-set-elements_9
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 442
+        width: 176
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 645b1b8443fac7f10800000000000000
+      internalID: 2268880951380653382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-drawn-video-game-set-elements_10
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 442
+        width: 176
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6ae06182597522d0800000000000000
+      internalID: -3304101356341499283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-drawn-video-game-set-elements_11
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 442
+        width: 177
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbf71d5caa8dfd100800000000000000
+      internalID: 135064741819285437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-drawn-video-game-set-elements_12
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 552
+        width: 162
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60d6153ab63fe1710800000000000000
+      internalID: 1666036555800734982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-drawn-video-game-set-elements_13
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 551
+        width: 161
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51e2afe0dc2e3a380800000000000000
+      internalID: -8961069463189705195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-drawn-video-game-set-elements_14
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 344
+        width: 162
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7158f71dc0355c100800000000000000
+      internalID: 127599478969435415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-drawn-video-game-set-elements_15
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 344
+        width: 161
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8802c25bc2abcfb30800000000000000
+      internalID: 4322534443549728904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-drawn-video-game-set-elements_16
+      rect:
+        serializedVersion: 2
+        x: 1450
+        y: 375
+        width: 412
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3815b4e8f87286f60800000000000000
+      internalID: 8027709833309016451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-drawn-video-game-set-elements_17
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 271
+        width: 663
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9142b32287018d090800000000000000
+      internalID: -8009633829122005991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-drawn-video-game-set-elements_18
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 137
+        width: 162
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfd6dfa56295d35c0800000000000000
+      internalID: -4234130053388210693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-drawn-video-game-set-elements_19
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 137
+        width: 161
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 125dfcaf5ae7892f0800000000000000
+      internalID: -965882868728343263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-drawn-video-game-set-elements_20
+      rect:
+        serializedVersion: 2
+        x: 1454
+        y: 134
+        width: 403
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 122856ff7d65c7bf0800000000000000
+      internalID: -325289587374718431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-drawn-video-game-set-elements_21
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 133
+        width: 663
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d04f8995c1227eb0800000000000000
+      internalID: -4723675926589652776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      hand-drawn-video-game-set-elements_0: 2659149816582369631
+      hand-drawn-video-game-set-elements_1: -7370182619243189915
+      hand-drawn-video-game-set-elements_10: -3304101356341499283
+      hand-drawn-video-game-set-elements_11: 135064741819285437
+      hand-drawn-video-game-set-elements_12: 1666036555800734982
+      hand-drawn-video-game-set-elements_13: -8961069463189705195
+      hand-drawn-video-game-set-elements_14: 127599478969435415
+      hand-drawn-video-game-set-elements_15: 4322534443549728904
+      hand-drawn-video-game-set-elements_16: 8027709833309016451
+      hand-drawn-video-game-set-elements_17: -8009633829122005991
+      hand-drawn-video-game-set-elements_18: -4234130053388210693
+      hand-drawn-video-game-set-elements_19: -965882868728343263
+      hand-drawn-video-game-set-elements_2: 7849106767485076380
+      hand-drawn-video-game-set-elements_20: -325289587374718431
+      hand-drawn-video-game-set-elements_21: -4723675926589652776
+      hand-drawn-video-game-set-elements_3: -9042227681396850528
+      hand-drawn-video-game-set-elements_4: 3723551318255275404
+      hand-drawn-video-game-set-elements_5: -5996461908708566936
+      hand-drawn-video-game-set-elements_6: 7177741243256259466
+      hand-drawn-video-game-set-elements_7: 4053144518002977845
+      hand-drawn-video-game-set-elements_8: -3254920254784252633
+      hand-drawn-video-game-set-elements_9: 2268880951380653382
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
