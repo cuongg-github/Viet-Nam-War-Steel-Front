@@ -14,6 +14,7 @@ TagManager:
   - GunBullet
   - reward_health
   - reward_bullet
+  - HellfireBomb
   layers:
   - Default
   - TransparentFX
@@ -29,7 +30,7 @@ TagManager:
   - Bulet_Gun
   - CmCam
   - Poly_Map
-  - 
+  - HellfireBomb
   - 
   - 
   - 
@@ -56,6 +57,9 @@ TagManager:
     locked: 0
   - name: Gun
     uniqueID: 1327809081
+    locked: 0
+  - name: UI
+    uniqueID: 3001159025
     locked: 0
   m_RenderingLayers:
   - Default

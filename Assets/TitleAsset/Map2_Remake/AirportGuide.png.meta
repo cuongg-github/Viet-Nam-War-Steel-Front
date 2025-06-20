@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      AirportGuide_0: -5500259171725672013
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
