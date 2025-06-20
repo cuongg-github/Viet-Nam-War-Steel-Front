@@ -26,14 +26,15 @@ public class Tank_Shooting : MonoBehaviour
 
     void Update()
     {
-        
+
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            if (shootCooldown == 0) 
+            if (shootCooldown == 0)
             {
                 Shoot();
                 shootCooldown += tempShoot;
-            } else
+            }
+            else
             {
                 shootCooldown -= 1;
             }
@@ -78,7 +79,7 @@ public class Tank_Shooting : MonoBehaviour
     void DropHellfireBombAtMouse()
     {
         Vector3 mouseWorldPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        mouseWorldPos.z = 0f; 
+        mouseWorldPos.z = 0f;
         Instantiate(hellfireBombPrefab, mouseWorldPos, Quaternion.identity);
     }
 
