@@ -4,7 +4,12 @@ public class Timer : MonoBehaviour
 {
     public TextMeshProUGUI timerText;
     public float timeLimit;
+    public GameObject looseCanvas;
 
+    void Start()
+    {
+
+    }
     void Update()
     {
         if (timeLimit > 0)
