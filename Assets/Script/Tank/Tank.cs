@@ -17,9 +17,14 @@ public class Tank : MonoBehaviour
     private int currentHealth;
     Vector2 moveAmount;
     public float doublerotate = 10f;
+    public GameObject looseCanvas;
+    public Animator LooseAnimator;
+    public GameObject gameplay_Map2;
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        LooseAnimator.SetBool("isLoose", false);
+        looseCanvas.SetActive(false);
         audioSource = GetComponent<AudioSource>();
         currentHealth = maxHealth;
         healthSlider.SetMaxHealth(maxHealth);
@@ -71,7 +76,15 @@ public class Tank : MonoBehaviour
     void Die()
     {
         Instantiate(destroySFX, transform.position, Quaternion.identity);
+        LooseGame();
         Destroy(gameObject);
+    }
+
+    private void LooseGame()
+    {
+        LooseAnimator.SetBool("isLoose", true);
+        looseCanvas.SetActive(true);
+        gameplay_Map2.SetActive(false);
     }
 
     void trackStart()
