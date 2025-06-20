@@ -1,4 +1,5 @@
-﻿using TMPro;
+﻿using System.Collections;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -8,7 +9,7 @@ public class NewMonoBehaviourScript : MonoBehaviour
     public GameObject skipButton;      // Nút Skip
     public GameObject nextButton;      // Nút Next
     public Image introImage;           // Image hiển thị hình ảnh đi kèm với text
-    public GameObject introCanvas;     
+    public GameObject introCanvas;
     public GameObject mainMenuCanvas;
     [TextArea]
     public string[] lines;             // Mảng các dòng text cần hiển thị
@@ -38,7 +39,7 @@ public class NewMonoBehaviourScript : MonoBehaviour
             // Ẩn text và nút skip
             introText.text = "";
             skipButton.SetActive(false);  // Tắt nút Skip
-            nextButton.SetActive(false );
+            nextButton.SetActive(false);
 
             // Ẩn canvas hiện tại và hiển thị canvas mới (main menu hoặc gameplay)
             introCanvas.SetActive(false);  // Ẩn canvas giới thiệu
@@ -48,9 +49,9 @@ public class NewMonoBehaviourScript : MonoBehaviour
     public void SkipIntro()
     {
         introText.text = "";
-        skipButton.SetActive(false); 
+        skipButton.SetActive(false);
         nextButton.SetActive(false);
-        introCanvas.SetActive(false);  
+        introCanvas.SetActive(false);
         mainMenuCanvas.SetActive(true);
     }
 
