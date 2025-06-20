@@ -44,7 +44,7 @@ public class NewMonoBehaviourScript : MonoBehaviour
             nextButton.SetActive(false);
             introCanvas.SetActive(false);  // Ẩn canvas giới thiệu
             mainMenuCanvas.SetActive(true); // Hiển thị canvas chính
-            audioManager.StopMusic();
+            audioManager.ChangeMusic(audioManager.newMusic);
         }
     }
     public void SkipIntro()
@@ -54,7 +54,7 @@ public class NewMonoBehaviourScript : MonoBehaviour
         nextButton.SetActive(false);
         introCanvas.SetActive(false);
         mainMenuCanvas.SetActive(true);
-        audioManager.StopMusic();
+        audioManager.ChangeMusic(audioManager.newMusic);
 
 
     }
