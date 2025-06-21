@@ -2,15 +2,19 @@ using UnityEngine;
 
 public class MainMenuSelectMap : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public void Map1()
     {
-        
+        GameManager.instance.LoadScene(2);
     }
 
-    // Update is called once per frame
-    void Update()
+    public void Map2()
     {
-        
+        GameManager.instance.LoadScene(4);
     }
+
+    public void Map3()
+    {
+        GameManager.instance.LoadScene(6);
+    }
+
 }

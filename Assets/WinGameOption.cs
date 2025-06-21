@@ -11,7 +11,7 @@ public class WinGameOption : MonoBehaviour
 
     public void MainMenu()
     {
-        GameManager.instance.LoadScene("MainMenu");
+        GameManager.instance.LoadScene(1);
     }
 
     public void NextScene()
