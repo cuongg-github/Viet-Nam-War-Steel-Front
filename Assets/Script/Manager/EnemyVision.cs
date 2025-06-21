@@ -4,7 +4,7 @@ public class EnemyVision : MonoBehaviour
 {
     public float detectionTime = 2f;
     private float timer = 0f;
-    public GameManager gameManager;
+    public GameManagerr gameManager;
     public bool isEnabled = true;
 
     private void OnTriggerStay2D(Collider2D other)
