@@ -515,7 +515,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 627d8f6d5166dd84cafc04faeb01513e, type: 3}
+  m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: 627d8f6d5166dd84cafc04faeb01513e, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.747
@@ -644,6 +644,7 @@ GameObject:
   - component: {fileID: 383028430}
   - component: {fileID: 383028429}
   - component: {fileID: 383028433}
+  - component: {fileID: 383028434}
   m_Layer: 5
   m_Name: StartGameCanvas
   m_TagString: Untagged
@@ -748,8 +749,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d6827de3e9351d42bbeb401f823e2d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  backgroundMusic: {fileID: 0}
+  backgroundMusic: {fileID: 216640131}
   newMusic: {fileID: 0}
+--- !u!114 &383028434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 383028428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 830b046153df2e74286431291fe06737, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &395159779
 GameObject:
   m_ObjectHideFlags: 0
@@ -1323,6 +1336,7 @@ GameObject:
   - component: {fileID: 745234983}
   - component: {fileID: 745234982}
   - component: {fileID: 745234987}
+  - component: {fileID: 745234988}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -1473,6 +1487,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backgroundMusic: {fileID: 0}
   newMusic: {fileID: 0}
+--- !u!114 &745234988
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 745234981}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d33d154e53082243ab724397d7f7a03, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  typingSpeed: 0.02
+  textComponent: {fileID: 144842804}
 --- !u!1 &1232802753
 GameObject:
   m_ObjectHideFlags: 0
@@ -1992,9 +2020,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 383028433}
-        m_TargetAssemblyTypeName: AudioManager, Assembly-CSharp
-        m_MethodName: StopMusic
+      - m_Target: {fileID: 383028434}
+        m_TargetAssemblyTypeName: Scene, Assembly-CSharp
+        m_MethodName: NextScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
