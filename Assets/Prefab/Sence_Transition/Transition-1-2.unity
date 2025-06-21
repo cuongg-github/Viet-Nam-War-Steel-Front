@@ -487,7 +487,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   typingSpeed: 0.02
   textComponent: {fileID: 144842804}
-  introImage: {fileID: 0}
+  introImage: {fileID: 44362756}
 --- !u!1 &383028428
 GameObject:
   m_ObjectHideFlags: 0

@@ -316,6 +316,9 @@ MonoBehaviour:
   shootEffect: {fileID: 3823380262823978262, guid: 575cd8373ff94c94ea1b581273a50b00, type: 3}
   bulletSpeed: 50
   shootCooldown: 0
+  hellfireBombPrefab: {fileID: 0}
+  hellfireCooldownText: {fileID: 0}
+  bombCooldown: 15
 --- !u!50 &5487852017387006925
 Rigidbody2D:
   serializedVersion: 5

@@ -15,6 +15,7 @@ TagManager:
   - reward_health
   - reward_bullet
   - Area
+  - Tank_AI
   layers:
   - Default
   - TransparentFX
@@ -31,6 +32,7 @@ TagManager:
   - CmCam
   - Poly_Map
   - BlockMap1
+  - Obstacle
   - 
   - 
   - 
