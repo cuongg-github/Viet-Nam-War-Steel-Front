@@ -10,7 +10,7 @@ public class TankEnemy : MonoBehaviour
     public HealthBar healthBar;
     public Rigidbody2D rb;
     public PolygonCollider2D poly;
-
+    public TargetKill targetKill;
     public GameObject bulletReward;
     public GameObject healthReward;
 
@@ -48,6 +48,10 @@ public class TankEnemy : MonoBehaviour
     {
         Instantiate(explodeEffectPrefab, transform.position, Quaternion.identity);
         Instantiate(destroyEffectPrefab, transform.position, Quaternion.identity);
+        if (targetKill != null)
+        {
+            targetKill.KilledTankEnemy();
+        }
         Destroy(gameObject);
     }
     void SpawnReward()
