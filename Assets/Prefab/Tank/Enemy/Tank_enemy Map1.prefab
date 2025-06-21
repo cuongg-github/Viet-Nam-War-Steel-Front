@@ -249,7 +249,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 6
+  m_SortingOrder: 7
   m_Sprite: {fileID: 5586951485976804815, guid: 55da57b46825c6347b0007c8b844b4fd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -279,6 +279,7 @@ GameObject:
   - component: {fileID: 18562577011963869}
   - component: {fileID: 7214576894639904404}
   - component: {fileID: 2205131377941309535}
+  - component: {fileID: 1619657427465275207}
   m_Layer: 0
   m_Name: Tank_enemy Map1
   m_TagString: Untagged
@@ -469,6 +470,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 100
+  destroyEffectPrefab: {fileID: 0}
+  explodeEffectPrefab: {fileID: 0}
   healthBar: {fileID: 0}
   rb: {fileID: 2811579618434510175}
   poly: {fileID: 5108174831814032746}
@@ -487,15 +490,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   detectRange: 30
-  shootRange: 20
   stopRange: 20
   moveSpeed: 2
   rotateSpeed: 50
   shootCooldown: 10
-  bulletPrefab: {fileID: 2392839452282538387, guid: 49914c8fbf6b2324b87821f62a579bf4, type: 3}
+  bulletSpeed: 50
+  bulletPrefab: {fileID: 7792571594999689716, guid: cd1b9189ae0a1dc4a8c1fcc67889b071, type: 3}
   firePoint: {fileID: 4306639827965891682}
   heavyHull: {fileID: 8937549574420330503}
   rb: {fileID: 2811579618434510175}
+  movementSound: {fileID: 8300000, guid: 8169e32de9a05e14bb9994fb9af9d17e, type: 3}
+  shootSound: {fileID: 8300000, guid: ca7ad24ae247b314cb172d85b6c29efe, type: 3}
+  shootEffect: {fileID: 3823380262823978262, guid: 575cd8373ff94c94ea1b581273a50b00, type: 3}
+  trackLeft: {fileID: 0}
+  trackRight: {fileID: 0}
 --- !u!114 &118411734132614034
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -531,7 +539,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3213881998110395542}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f6eb1402c17e84a9282a7f0f62eb584f, type: 3}
   m_Name: 
@@ -573,7 +581,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3213881998110395542}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 22b4d1ac7211338429d0f33c757bc0da, type: 3}
   m_Name: 
@@ -592,16 +600,111 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d5d683add7e9c648826ec42f107d809, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 2
+  moveSpeed: 5
   rotationSpeed: 100
-  bulletPrefab: {fileID: 2392839452282538387, guid: 49914c8fbf6b2324b87821f62a579bf4, type: 3}
+  bulletPrefab: {fileID: 7792571594999689716, guid: cd1b9189ae0a1dc4a8c1fcc67889b071, type: 3}
   firePoint: {fileID: 4306639827965891682}
-  heavyHull: {fileID: 0}
   canShoot: 0
-  detectRange: 30
-  shootRange: 20
+  attackTargetPoint: {fileID: 0}
   stopRange: 20
-  shootCooldown: 10
+  shootCooldown: 2
+--- !u!82 &1619657427465275207
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3213881998110395542}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &3311539186889630306
 GameObject:
   m_ObjectHideFlags: 0
@@ -772,7 +875,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.050961494, y: 0}
+  m_Offset: {x: 0.010627836, y: -0.089481086}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -782,7 +885,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1.7644207, y: 1}
+  m_Size: {x: 0.7157325, y: 0.8210378}
   m_EdgeRadius: 0
 --- !u!50 &4706169875397507874
 Rigidbody2D:

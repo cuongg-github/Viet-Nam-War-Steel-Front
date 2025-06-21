@@ -1,5 +1,6 @@
-﻿using UnityEngine;
-using System.Collections;
+﻿using System.Collections;
+using UnityEngine;
+using UnityEngine.InputSystem.XR;
 
 public class TriggerAttackZone : MonoBehaviour
 {
@@ -57,10 +58,11 @@ public class TriggerAttackZone : MonoBehaviour
                 EnemyTankController controller = enemy.GetComponent<EnemyTankController>();
                 if (controller != null && attackTargetPoint != null)
                 {
-                    controller.attackTargetPoint = attackTargetPoint;
-                    controller.StartMovingTo(attackTargetPoint);
+                   controller.attackTargetPoint = attackTargetPoint;
+                   controller.SetTrigger(true);
+                   controller.StartMovingTo(attackTargetPoint);
                     Debug.Log($"Enemy {i + 1} trong đợt {w + 1} đã được tạo và bắt đầu di chuyển đến mục tiêu.");
-                }
+               }
             }
 
             yield return new WaitForSeconds(timeBetweenWaves);
@@ -71,8 +73,27 @@ public class TriggerAttackZone : MonoBehaviour
     {
         foreach (var enemy in existingEnemies)
         {
-            enemy.StartMovingTo(attackTargetPoint);
-            Debug.Log($"Enemy {enemy.name} đã bắt đầu di chuyển đến mục tiêu tấn công.");
+            // Tắt EnemyPatrol nếu có
+            EnemyPatrol patrol = enemy.GetComponent<EnemyPatrol>();
+            if (patrol != null)
+            {
+                patrol.enabled = false; // Tắt component EnemyPatrol
+            }
+
+            // Đảm bảo rằng EnemyTankController được kích hoạt
+            EnemyTankController controller = enemy.GetComponent<EnemyTankController>();
+            if (controller != null)
+            {
+                controller.enabled = true;  // Đảm bảo component EnemyTankController hoạt động
+                controller.SetTrigger(true);
+                enemy.StartMovingTo(attackTargetPoint);  // Di chuyển đến điểm tấn công
+                Debug.Log($"Enemy {enemy.name} đã bắt đầu di chuyển đến mục tiêu tấn công.");
+            }
+            else
+            {
+                Debug.LogWarning($"Không tìm thấy EnemyTankController trong {enemy.name}");
+            }
         }
     }
+
 }
