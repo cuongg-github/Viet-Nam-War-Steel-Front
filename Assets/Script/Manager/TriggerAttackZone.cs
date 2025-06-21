@@ -1,5 +1,6 @@
-﻿using UnityEngine;
-using System.Collections;
+﻿using System.Collections;
+using UnityEngine;
+using UnityEngine.InputSystem.XR;
 
 public class TriggerAttackZone : MonoBehaviour
 {
@@ -10,10 +11,16 @@ public class TriggerAttackZone : MonoBehaviour
     public float timeBetweenWaves = 10f;
     public int enemiesPerWave = 3;
     public EnemyVision[] enemyVisions;
-    public EnemyAI_MoveToTarget[] existingEnemies;
+    public EnemyTankController[] existingEnemies;
     public Transform attackTargetPoint;
 
     private bool triggered = false;
+
+
+    public bool IsTriggered 
+    {
+        get { return triggered; }
+    }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -33,10 +40,11 @@ public class TriggerAttackZone : MonoBehaviour
 
         Debug.Log("Địch bắt đầu tấn công theo đợt!");
 
-        StartEnemyAttack();
+        StartEnemyAttack(); // Cho enemy có sẵn di chuyển
+
         foreach (var vision in enemyVisions)
         {
-            vision.isEnabled = false;
+            vision.isEnabled = false; // Tắt chế độ phát hiện sớm
         }
 
         for (int w = 0; w < waves; w++)
@@ -44,7 +52,17 @@ public class TriggerAttackZone : MonoBehaviour
             for (int i = 0; i < enemiesPerWave; i++)
             {
                 int index = Random.Range(0, spawnPoints.Length);
-                Instantiate(enemyPrefab, spawnPoints[index].position, Quaternion.identity);
+                GameObject enemy = Instantiate(enemyPrefab, spawnPoints[index].position, Quaternion.identity);
+
+                // Gọi hàm di chuyển đến mục tiêu nếu có controller
+                EnemyTankController controller = enemy.GetComponent<EnemyTankController>();
+                if (controller != null && attackTargetPoint != null)
+                {
+                   controller.attackTargetPoint = attackTargetPoint;
+                   controller.SetTrigger(true);
+                   controller.StartMovingTo(attackTargetPoint);
+                    Debug.Log($"Enemy {i + 1} trong đợt {w + 1} đã được tạo và bắt đầu di chuyển đến mục tiêu.");
+               }
             }
 
             yield return new WaitForSeconds(timeBetweenWaves);
@@ -55,7 +73,27 @@ public class TriggerAttackZone : MonoBehaviour
     {
         foreach (var enemy in existingEnemies)
         {
-            enemy.StartMovingTo(attackTargetPoint);
+            // Tắt EnemyPatrol nếu có
+            EnemyPatrol patrol = enemy.GetComponent<EnemyPatrol>();
+            if (patrol != null)
+            {
+                patrol.enabled = false; // Tắt component EnemyPatrol
+            }
+
+            // Đảm bảo rằng EnemyTankController được kích hoạt
+            EnemyTankController controller = enemy.GetComponent<EnemyTankController>();
+            if (controller != null)
+            {
+                controller.enabled = true;  // Đảm bảo component EnemyTankController hoạt động
+                controller.SetTrigger(true);
+                enemy.StartMovingTo(attackTargetPoint);  // Di chuyển đến điểm tấn công
+                Debug.Log($"Enemy {enemy.name} đã bắt đầu di chuyển đến mục tiêu tấn công.");
+            }
+            else
+            {
+                Debug.LogWarning($"Không tìm thấy EnemyTankController trong {enemy.name}");
+            }
         }
     }
+
 }
