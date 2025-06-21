@@ -58,5 +58,11 @@ TagManager:
   - name: Gun
     uniqueID: 1327809081
     locked: 0
+  - name: Panel
+    uniqueID: 4108384505
+    locked: 0
+  - name: Button
+    uniqueID: 3780366005
+    locked: 0
   m_RenderingLayers:
   - Default

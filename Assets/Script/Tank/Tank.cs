@@ -12,16 +12,22 @@ public class Tank : MonoBehaviour
     public float rotateSpeed = 100f;
     public AudioClip movementSound;
     public GameObject destroySFX;
-
+    public HealthSlider healthSlider;
     private AudioSource audioSource;
     private int currentHealth;
     Vector2 moveAmount;
     public float doublerotate = 10f;
+    public GameObject looseCanvas;
+    public Animator LooseAnimator;
+    public GameObject gameplay_Map2;
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        LooseAnimator.SetBool("isLoose", false);
+        looseCanvas.SetActive(false);
         audioSource = GetComponent<AudioSource>();
         currentHealth = maxHealth;
+        healthSlider.SetMaxHealth(maxHealth);
         rb.angularDamping = 10f;
         rb.linearDamping = 10f;
         rb.gravityScale = 0;
@@ -60,6 +66,7 @@ public class Tank : MonoBehaviour
     public void TakeDamage(int damage)
     {
         currentHealth -= damage;
+        healthSlider.SetHeath(currentHealth);
         if (currentHealth <= 0)
         {
             Die();
@@ -69,7 +76,15 @@ public class Tank : MonoBehaviour
     void Die()
     {
         Instantiate(destroySFX, transform.position, Quaternion.identity);
+        LooseGame();
         Destroy(gameObject);
+    }
+
+    private void LooseGame()
+    {
+        LooseAnimator.SetBool("isLoose", true);
+        looseCanvas.SetActive(true);
+        gameplay_Map2.SetActive(false);
     }
 
     void trackStart()
