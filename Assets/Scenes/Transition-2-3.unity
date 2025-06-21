@@ -396,8 +396,8 @@ MonoBehaviour:
     nh\u01B0 s\xE2n bay H\xF2a B\xECnh, c\xE1c c\u0103n c\u1EE9 qu\xE2n s\u1EF1 l\u1EDBn,
     kho \u0111\u1EA1n trong v\xF2ng ch\u01B0a \u0111\u1EA7y 2 ng\xE0y."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
-  m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 549e20c988a8f81458dc76cc87025d00, type: 2}
+  m_sharedMaterial: {fileID: -7131265329237658673, guid: 549e20c988a8f81458dc76cc87025d00, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
