@@ -632,6 +632,7 @@ GameObject:
   - component: {fileID: 7194338512583463493}
   - component: {fileID: 2296681093576941203}
   - component: {fileID: 1291295098882900815}
+  - component: {fileID: 7345763190024060139}
   m_Layer: 6
   m_Name: Ally_Tank M1
   m_TagString: Tank_Ally
@@ -675,12 +676,17 @@ MonoBehaviour:
   trackLeft: {fileID: 7702504918686484403}
   trackRight: {fileID: 7179934993206610910}
   rb: {fileID: 7194338512583463493}
-  bc: {fileID: 2296681093576941203}
-  keyMoveForward: w
-  keyMoveReverse: s
-  keyRotateRight: d
-  keyRotateLeft: a
+  poly: {fileID: 0}
+  maxHealth: 100
+  moveSpeed: 3
+  rotateSpeed: 100
+  movementSound: {fileID: 0}
+  destroySFX: {fileID: 0}
+  healthSlider: {fileID: 0}
   doublerotate: 10
+  looseCanvas: {fileID: 0}
+  LooseAnimator: {fileID: 0}
+  gameplay_Map2: {fileID: 0}
 --- !u!50 &7194338512583463493
 Rigidbody2D:
   serializedVersion: 5
@@ -766,6 +772,109 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f601b9b853ef31d4198afbf6a2c764a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bulletPrefab: {fileID: 6267833845587364520, guid: 1c94ebcc74ff46946959a3f081b7c1b9, type: 3}
+  bulletPrefab: {fileID: 745315426802308478, guid: eb2d7c4bdc2465f49ad1acc4ecd0997f, type: 3}
   firePoint: {fileID: 2179350326144470301}
+  shootSound: {fileID: 8300000, guid: ca7ad24ae247b314cb172d85b6c29efe, type: 3}
+  shootEffect: {fileID: 3823380262823978262, guid: 575cd8373ff94c94ea1b581273a50b00, type: 3}
   bulletSpeed: 10
+  shootCooldown: 0
+  hellfireBombPrefab: {fileID: 0}
+  hellfireCooldownText: {fileID: 0}
+  bombCooldown: 15
+--- !u!82 &7345763190024060139
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8297124847501809518}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 0.9535141
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4

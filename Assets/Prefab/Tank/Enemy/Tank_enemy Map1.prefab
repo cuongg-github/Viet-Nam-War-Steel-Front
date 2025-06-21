@@ -274,10 +274,7 @@ GameObject:
   - component: {fileID: 5108174831814032746}
   - component: {fileID: 2811579618434510175}
   - component: {fileID: 7472016142984685670}
-  - component: {fileID: 8428003932881894840}
   - component: {fileID: 118411734132614034}
-  - component: {fileID: 18562577011963869}
-  - component: {fileID: 7214576894639904404}
   - component: {fileID: 2205131377941309535}
   - component: {fileID: 1619657427465275207}
   m_Layer: 0
@@ -297,7 +294,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -37.2, y: 23.2, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2, y: 2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6194154698500773008}
@@ -475,35 +472,9 @@ MonoBehaviour:
   healthBar: {fileID: 0}
   rb: {fileID: 2811579618434510175}
   poly: {fileID: 5108174831814032746}
+  targetKill: {fileID: 0}
   bulletReward: {fileID: 0}
   healthReward: {fileID: 0}
---- !u!114 &8428003932881894840
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3213881998110395542}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b6773fbe5590dcc42a18c1f7d36402cd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  detectRange: 30
-  stopRange: 20
-  moveSpeed: 2
-  rotateSpeed: 50
-  shootCooldown: 10
-  bulletSpeed: 50
-  bulletPrefab: {fileID: 7792571594999689716, guid: cd1b9189ae0a1dc4a8c1fcc67889b071, type: 3}
-  firePoint: {fileID: 4306639827965891682}
-  heavyHull: {fileID: 8937549574420330503}
-  rb: {fileID: 2811579618434510175}
-  movementSound: {fileID: 8300000, guid: 8169e32de9a05e14bb9994fb9af9d17e, type: 3}
-  shootSound: {fileID: 8300000, guid: ca7ad24ae247b314cb172d85b6c29efe, type: 3}
-  shootEffect: {fileID: 3823380262823978262, guid: 575cd8373ff94c94ea1b581273a50b00, type: 3}
-  trackLeft: {fileID: 0}
-  trackRight: {fileID: 0}
 --- !u!114 &118411734132614034
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -532,62 +503,6 @@ MonoBehaviour:
   tagPenalties: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   graphMask:
     value: -1
---- !u!114 &18562577011963869
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3213881998110395542}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f6eb1402c17e84a9282a7f0f62eb584f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  version: 5
-  radius: 0.5
-  height: 2
-  canMove: 1
-  maxSpeed: 1
-  gravity: {x: NaN, y: NaN, z: NaN}
-  groundMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  centerOffsetCompatibility: NaN
-  repathRateCompatibility: NaN
-  canSearchCompability: 0
-  orientation: 0
-  enableRotation: 1
-  autoRepath:
-    mode: 2
-    interval: 0.5
-    sensitivity: 10
-    maximumInterval: 2
-    visualizeSensitivity: 0
-  targetCompatibility: {fileID: 0}
-  maxAcceleration: -2.5
-  rotationSpeed: 360
-  slowdownDistance: 0.6
-  pickNextWaypointDist: 2
-  endReachedDistance: 0.2
-  alwaysDrawGizmos: 0
-  slowWhenNotFacingTarget: 1
-  whenCloseToDestination: 0
-  constrainInsideGraph: 0
---- !u!114 &7214576894639904404
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3213881998110395542}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 22b4d1ac7211338429d0f33c757bc0da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  stuckCheckInterval: 1
-  stuckDistance: 0.1
 --- !u!114 &2205131377941309535
 MonoBehaviour:
   m_ObjectHideFlags: 0

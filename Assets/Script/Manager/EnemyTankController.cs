@@ -11,7 +11,7 @@ public class EnemyTankController : MonoBehaviour
     public bool canShoot = false;
     public Transform attackTargetPoint;
     public float stopRange = 20f;
-    public float shootCooldown = 5f;
+    public float shootCooldown = 2f;
     private Path path;
     private int currentWaypoint = 0;
     private bool canMove = false;
@@ -19,7 +19,9 @@ public class EnemyTankController : MonoBehaviour
     private Seeker seeker;
     private Transform player;
     private float tempShootCooldown;
-    private bool isTriggered = false;  
+    private bool isTriggered = false;
+    public float raycastDistance = 1f;  // Khoảng cách raycast kiểm tra va chạm
+    public LayerMask obstacleLayer;
     void Start()
     {
         GameObject playerObj = GameObject.FindGameObjectWithTag("Tank_Ally");
@@ -76,7 +78,6 @@ public class EnemyTankController : MonoBehaviour
         {
             RaycastHit2D shootPoint = Physics2D.Raycast(firePoint.position, firePoint.up, stopRange, LayerMask.GetMask("Tank"));
             float distance = Vector2.Distance(player.GetComponent<Collider2D>().bounds.center, transform.GetComponent<Collider2D>().bounds.center);
-            // Debug.Log("Khoảng cách đến Player: " + distance);
 
             if (distance > stopRange)
             {
@@ -84,14 +85,14 @@ public class EnemyTankController : MonoBehaviour
             }
             else
             {
-                if (shootPoint.collider != null && tempShootCooldown <= 0)  // Kiểm tra cooldown trước khi bắn
+                if (shootPoint.collider != null && tempShootCooldown <= 0)
                 {
-                    Shoot();  // Bắn khi đủ điều kiện
-                    tempShootCooldown = shootCooldown;  // Reset cooldown
+                    Shoot();
+                    tempShootCooldown = shootCooldown;
                 }
                 else
                 {
-                    tempShootCooldown -= Time.deltaTime;  // Giảm cooldown mỗi frame
+                    tempShootCooldown -= Time.deltaTime;
                 }
             }
         }
@@ -100,36 +101,84 @@ public class EnemyTankController : MonoBehaviour
         if (!canMove || path == null || path.vectorPath == null || currentWaypoint >= path.vectorPath.Count)
             return;
 
-        // Tính toán hướng di chuyển đến waypoint tiếp theo
-        Vector2 targetPos = path.vectorPath[currentWaypoint];
-        Vector2 direction = (targetPos - rb.position).normalized;  // Tính hướng di chuyển
+        CheckForSafeMovement();
+    }
 
-        // Tính toán góc quay để di chuyển về phía mục tiêu
+    bool CheckForObstacle()
+    {
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, transform.up, raycastDistance, obstacleLayer);
+        if (hit.collider != null)
+        {
+            return true; // Có vật cản
+        }
+        return false; // Không có vật cản
+    }
+
+    void AvoidObstacle()
+    {
+        if (CheckForObstacle())
+        {
+            // Tính toán hướng đi mới để tránh va chạm
+            float randomAngle = Random.Range(-45f, 45f); // Quay một góc ngẫu nhiên từ -45 đến 45 độ
+            transform.Rotate(0, 0, randomAngle); // Xoay đối tượng để tránh vật cản
+
+            // Cập nhật lại path sau khi xoay
+            seeker.StartPath(transform.position, attackTargetPoint.position, OnPathComplete);
+        }
+        else
+        {
+            // Di chuyển bình thường nếu không có vật cản
+            MoveToWaypoint();
+        }
+    }
+
+
+    void CheckForSafeMovement()
+    {
+        // Tạo vùng an toàn xung quanh kẻ địch để kiểm tra vật cản
+        Collider2D[] obstacles = Physics2D.OverlapCircleAll(transform.position, 2f, obstacleLayer);
+
+        if (obstacles.Length > 0)
+        {
+            // Nếu có vật cản trong vùng an toàn, thay đổi hướng đi
+            AvoidObstacle();
+        }
+        else
+        {
+            // Di chuyển đến waypoint bình thường nếu không có vật cản
+            MoveToWaypoint();
+        }
+    }
+
+
+    void MoveToWaypoint()
+    {
+        Vector2 targetPos = path.vectorPath[currentWaypoint];
+        Vector2 direction = (targetPos - rb.position).normalized;
+
         float targetAngle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg - 90f;
         float currentAngle = rb.rotation;
         float angleDiff = Mathf.DeltaAngle(currentAngle, targetAngle);
         float rotationStep = rotationSpeed * Time.fixedDeltaTime;
 
-        // Xoay về hướng mục tiêu
-        if (Mathf.Abs(angleDiff) < rotationStep)
-        {
-            rb.MoveRotation(targetAngle);
-        }
-        else
+        if (Mathf.Abs(angleDiff) > rotationStep)
         {
             rb.MoveRotation(currentAngle + Mathf.Sign(angleDiff) * rotationStep);
         }
+        else
+        {
+            rb.MoveRotation(targetAngle);
+        }
 
-        // Di chuyển về phía mục tiêu
         Vector2 moveDirection = direction * moveSpeed * Time.fixedDeltaTime;
         rb.MovePosition(rb.position + moveDirection);
 
-        // Di chuyển đến waypoint tiếp theo khi gần
-        if (Vector2.Distance(rb.position, targetPos) < 0.2f)
+        if (Vector2.Distance(rb.position, targetPos) < 0.5f)
         {
-            currentWaypoint++;  // Chuyển sang waypoint tiếp theo khi đã đến gần
+            currentWaypoint++;
         }
     }
+
 
     void moveFollowPlayer()
     {
@@ -170,7 +219,7 @@ public class EnemyTankController : MonoBehaviour
 
                 bulletRb.linearVelocity = firePoint.up * 10f; // Thiết lập vận tốc cho viên đạn
 
-                StartCoroutine(EnableColliderAfterDelay(bulletCollider, 0.1f));  // Bật collider sau 0.1s
+                StartCoroutine(EnableColliderAfterDelay(bulletCollider, 5f));  // Bật collider sau 0.1s
             }
         }
         else
