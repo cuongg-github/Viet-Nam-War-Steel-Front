@@ -365,7 +365,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -105}
+  m_AnchoredPosition: {x: 14, y: -105}
   m_SizeDelta: {x: 200, y: 136.7344}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &144842804
@@ -396,8 +396,8 @@ MonoBehaviour:
     nh\u01B0 s\xE2n bay H\xF2a B\xECnh, c\xE1c c\u0103n c\u1EE9 qu\xE2n s\u1EF1 l\u1EDBn,
     kho \u0111\u1EA1n trong v\xF2ng ch\u01B0a \u0111\u1EA7y 2 ng\xE0y."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 549e20c988a8f81458dc76cc87025d00, type: 2}
-  m_sharedMaterial: {fileID: -7131265329237658673, guid: 549e20c988a8f81458dc76cc87025d00, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
+  m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -459,7 +459,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -289.5799, y: 0, z: -274.3239, w: 0}
+  m_margin: {x: -289.5799, y: 0, z: -257.24402, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -487,6 +487,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   typingSpeed: 0.02
   textComponent: {fileID: 144842804}
+  introImage: {fileID: 44362756}
 --- !u!1 &216640130
 GameObject:
   m_ObjectHideFlags: 0
@@ -786,7 +787,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 356, y: -158.37}
+  m_AnchoredPosition: {x: 332, y: -158.37}
   m_SizeDelta: {x: 90, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &395159781
@@ -1488,6 +1489,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   typingSpeed: 0.02
   textComponent: {fileID: 144842804}
+  introImage: {fileID: 44362756}
 --- !u!1 &1232802753
 GameObject:
   m_ObjectHideFlags: 0
@@ -1827,7 +1829,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 246, y: -158.37}
+  m_AnchoredPosition: {x: 230.42, y: -158.37}
   m_SizeDelta: {x: 90, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2039366782

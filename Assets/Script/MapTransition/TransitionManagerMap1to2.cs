@@ -1,6 +1,5 @@
-﻿using System.Collections;
+﻿using UnityEngine;
 using TMPro;
-using UnityEngine;
 using UnityEngine.UI;
 
 public class NewMonoBehaviourScript : MonoBehaviour
@@ -38,7 +37,7 @@ public class NewMonoBehaviourScript : MonoBehaviour
         if (currentLine < lines.Length)  // Nếu còn dòng để hiển thị
         {
             // Gọi lại DisplayNextText để làm gõ chữ dần cho dòng mới
-            typewriterEffect.DisplayNextText(lines[currentLine]);  // Hiển thị dòng hiện tại với hiệu ứng gõ chữ
+            typewriterEffect.DisplayNextText(lines[currentLine], images[currentLine]);  // Hiển thị dòng hiện tại với hiệu ứng gõ chữ
             currentLine++;  // Tăng chỉ số dòng
         }
 
