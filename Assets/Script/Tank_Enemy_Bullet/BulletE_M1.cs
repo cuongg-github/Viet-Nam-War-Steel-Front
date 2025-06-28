@@ -12,7 +12,7 @@ public class BulletE_M1 : MonoBehaviour
         startPosition = transform.position;
 
         // Bỏ qua va chạm với bản đồ (Map1)
-        GameObject[] map = GameObject.FindWithTag("Map1");
+        GameObject map = GameObject.FindWithTag("Map1");
         Debug.Log("Map1: " + map);
         if (map == null)
         {

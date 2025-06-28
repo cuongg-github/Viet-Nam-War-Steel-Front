@@ -16,7 +16,7 @@ public class TriggerAttackZone : MonoBehaviour
     public TimerDefend timerDefend; 
     public float defendTime = 30f; 
 
-    public GameManager gameManager; 
+    public GameManagerMap1 gameManager; 
 
     private bool triggered = false;
 

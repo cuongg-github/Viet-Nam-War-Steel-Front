@@ -12,7 +12,7 @@ public class TimerDefend : MonoBehaviour
     private bool isCounting = false;
     private bool isPreparing = false;
     private float prepareTime = 0f;
-    public GameManager gameManager;
+    public GameManagerMap1 gameManager;
 
     void Start()
     {

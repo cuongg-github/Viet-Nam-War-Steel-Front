@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class GameManagerr : MonoBehaviour
+public class GameManagerMap1 : MonoBehaviour
 {
 
     public GameObject WinCanvas;

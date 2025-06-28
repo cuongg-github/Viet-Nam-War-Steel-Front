@@ -10,7 +10,7 @@ public class TimerDetection : MonoBehaviour
     private float maxDetectionTime = 0f;
     private bool isCounting = false;
 
-    public GameManager gameManager;
+    public GameManagerMap1 gameManager;
 
     void Start()
     {
