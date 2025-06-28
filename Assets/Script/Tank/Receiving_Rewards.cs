@@ -8,10 +8,13 @@ public class Receiving_Rewards : MonoBehaviour
     public int bullet = 10;
     public TextMeshProUGUI bulletText;
     public TextMeshProUGUI healthText;
+    public GameObject upgradeCanvas;
+    public Animator upgradeAnimator;
     void Start()
     {
         bulletText.SetText(bullet.ToString());
         healthText.SetText(health.ToString());
+
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -30,6 +33,15 @@ public class Receiving_Rewards : MonoBehaviour
                 health += 10;
                 healthText.SetText(health.ToString());
                 Destroy(collision.gameObject);
+            }
+
+            if (collision.CompareTag("reward_secretbox"))
+            {
+                Debug.Log("Touched: " + collision.name);
+                Destroy(collision.gameObject);
+                upgradeAnimator.SetBool("isUpgrade", true);
+                upgradeCanvas.SetActive(true);
+                
             }
     }
 }
