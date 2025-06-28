@@ -3,91 +3,37 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
-    public int requiredGunsDestroyed = 3;
-    public int requiredTanksDestroyed = 5;
-    public float timeLimit = 120f;
-    private bool detected = false;
 
-    public GameObject winPanel;
-    public GameObject losePanel;
-
-    private int currentGunsDestroyed = 0;
-    private int currentTanksDestroyed = 0;
-    private float timer;
+    public GameObject WinCanvas;
+    public Animator WinAnimator;
+    public GameObject LoseCanvas;
+    public Animator LoseAnimator;
 
     private bool gameEnded = false;
-
-    void Start()
-    {
-        timer = timeLimit;
-    }
-
-    void Update()
-    {
-        if (gameEnded) return;
-
-        timer -= Time.deltaTime;
-
-        if (timer <= 0)
-        {
-            LoseGame();
-        }
-
-        if (currentGunsDestroyed >= requiredGunsDestroyed &&
-            currentTanksDestroyed >= requiredTanksDestroyed)
-        {
-            WinGame();
-        }
-    }
-
-    public void AddGunDestroyed()
-    {
-        currentGunsDestroyed++;
-    }
-
-    public void AddTankDestroyed()
-    {
-        currentTanksDestroyed++;
-    }
 
     void WinGame()
     {
         gameEnded = true;
-        Debug.Log("WIN GAME!");
-        if (winPanel != null) winPanel.SetActive(true);
-        //Invoke("LoadNextLevel", 5f);
+        WinAnimator.SetBool("isLoose", false);
+        WinCanvas.SetActive(true);
     }
 
     void LoseGame()
     {
         gameEnded = true;
-        Debug.Log("YOU LOSE!");
-        if (losePanel != null) losePanel.SetActive(true);
-        Invoke("ReloadLevel", 5f);
-    }
-
-    //void LoadNextLevel()
-    //{
-    //    SceneManager.LoadScene("Map2");
-    //}
-
-    void ReloadLevel()
-    {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-    }
-
-    public float GetTimeRemaining()
-    {
-        return timer;
+        LoseAnimator.SetBool("isLoose", true);
+        LoseCanvas.SetActive(true);
     }
 
     public void OnPlayerDetected()
     {
-        if (!detected)
-        {
-            detected = true;
-            Debug.Log("Bị phát hiện gameover");
-            LoseGame();
-        }
+         Debug.Log("Bị phát hiện gameover");
+         LoseGame();
+    }
+
+    public void OnDefendSuccessfull()
+    {
+        Debug.Log("Phòng thủ thành công");
+        WinGame();
     }
 }
