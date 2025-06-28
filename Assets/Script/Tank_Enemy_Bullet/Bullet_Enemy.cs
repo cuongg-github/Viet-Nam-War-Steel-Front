@@ -30,6 +30,16 @@ public class Bullet_Enemy : MonoBehaviour
             }   
         }
 
+        if (collision.gameObject.CompareTag("Tank_AI"))
+        {
+            Collider2D bulleCollider = GetComponent<Collider2D>();
+            TankAIHealth tankai = collision.gameObject.GetComponent<TankAIHealth>();
+            if (tankai != null)
+            {
+                tankai.TakeDamage(damage);
+            }
+        }
+
         Destroy(gameObject);
     }
 }
