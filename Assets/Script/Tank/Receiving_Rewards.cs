@@ -5,6 +5,7 @@ using System;
 public class Receiving_Rewards : MonoBehaviour
 {
     public GameObject upgradeCanvas;
+    public Tank tank;
     //public Animator upgradeAnimator;
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -17,8 +18,8 @@ public class Receiving_Rewards : MonoBehaviour
         
             if (collision.CompareTag("reward_health"))
             {
-                Debug.Log("Touched: " + collision.name);
-                Destroy(collision.gameObject);
+                tank.BuffHealth(50);
+            Destroy(collision.gameObject);
             }
 
             if (collision.CompareTag("reward_secretbox"))

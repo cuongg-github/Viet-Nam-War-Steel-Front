@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      laser-toi-thuong_0: 3030579178926994788
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
