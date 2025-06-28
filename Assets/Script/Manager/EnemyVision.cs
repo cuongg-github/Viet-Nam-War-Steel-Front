@@ -2,23 +2,22 @@
 
 public class EnemyVision : MonoBehaviour
 {
-    public float detectionTime = 10f;
-    private float timer = 0f;
-    public GameManager gameManager;
+    public float detectionTime = 5f;
+    private bool isDetecting = false;
     public bool isEnabled = true;
+    public TimerDetection timerDetection;
 
     private void OnTriggerStay2D(Collider2D other)
     {
-        if (!isEnabled) return;
-
-        if (other.CompareTag("Tank_Ally"))
+        if (isEnabled)
         {
-            timer += Time.deltaTime;
-
-            if (timer >= detectionTime)
+            if (other.CompareTag("Tank_Ally"))
             {
-                Debug.Log("Player bị phát hiện!");
-                gameManager.OnPlayerDetected();
+                if (!isDetecting)
+                {
+                    isDetecting = true;
+                    timerDetection.StartDetection(detectionTime);
+                }
             }
         }
     }
@@ -27,7 +26,8 @@ public class EnemyVision : MonoBehaviour
     {
         if (other.CompareTag("Tank_Ally"))
         {
-            timer = 0f;
+            isDetecting = false;
+            timerDetection.StopDetection();
         }
     }
 }

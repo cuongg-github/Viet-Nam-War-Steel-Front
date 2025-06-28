@@ -13,7 +13,7 @@ public class HellfireBomb : MonoBehaviour
     {
         Debug.Log("🔥 Bomb được tạo");
         audioSource = GetComponent<AudioSource>();
-        Invoke("Explode", 0.3f); 
+        //Invoke("Explode", 0.3f); 
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
