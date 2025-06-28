@@ -6,7 +6,7 @@ using TMPro;
 public class TimerUI : MonoBehaviour
 {
     public TMP_Text timerText;
-    public GameManager gameManager;
+    public GameManagerr gameManager;
 
     void Update()
     {

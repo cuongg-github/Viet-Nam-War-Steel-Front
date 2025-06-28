@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class GameManager : MonoBehaviour
+public class GameManagerr : MonoBehaviour
 {
     public int requiredGunsDestroyed = 3;
     public int requiredTanksDestroyed = 5;
