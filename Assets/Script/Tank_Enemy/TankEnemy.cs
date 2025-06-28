@@ -39,7 +39,6 @@ public class TankEnemy : MonoBehaviour
         {
             isDead = true;
             Die();
-            SpawnReward();
 
         }
         healthBar.UpdateBar(currentHealth, maxHealth);
@@ -54,6 +53,7 @@ public class TankEnemy : MonoBehaviour
         {
             targetKill.KilledTankEnemy();
         }
+        SpawnReward();
         Destroy(gameObject);
     }
     void SpawnReward()
