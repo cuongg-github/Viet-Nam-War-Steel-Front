@@ -7,7 +7,7 @@ public class HealthSlider : MonoBehaviour
     public void SetMaxHealth( int maxHealth)
     {
         healthSlider.maxValue = maxHealth;
-        healthSlider.value = maxHealth; 
+        healthSlider.value = maxHealth;
     }
 
     public void SetHeath(int health)

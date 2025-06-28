@@ -23,7 +23,7 @@ public class Bullet : MonoBehaviour
         if (collision.gameObject.CompareTag("Tank_Enemy"))
         {
             Collider2D bulleCollider = GetComponent<Collider2D>();
-            TankEnemy enemy = collision.gameObject.GetComponent<TankEnemy>();
+            TankEnemyMap3 enemy = collision.gameObject.GetComponent<TankEnemyMap3>();
             if (enemy != null)
             {
                 Collider2D enemyCollider = enemy.GetComponent<Collider2D>();
