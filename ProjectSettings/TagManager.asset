@@ -17,6 +17,8 @@ TagManager:
   - Area
   - Tank_AI
   - reward_secretbox
+  - Map1
+  - VisionArea
   layers:
   - Default
   - TransparentFX
@@ -34,8 +36,7 @@ TagManager:
   - Poly_Map
   - BlockMap1
   - Obstacle
-  - 
-  - 
+  - Map1
   - 
   - 
   - 

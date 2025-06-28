@@ -85,15 +85,16 @@ public class EnemyTankController : MonoBehaviour
             }
             else
             {
-                if (shootPoint.collider != null && tempShootCooldown <= 0)
+                if (shootPoint.collider != null)
                 {
-                    Shoot();
-                    tempShootCooldown = shootCooldown;
+                    if (tempShootCooldown <= 0f)
+                    {
+                        Shoot();
+                        tempShootCooldown = shootCooldown;
+                    }
                 }
-                else
-                {
-                    tempShootCooldown -= Time.deltaTime;
-                }
+                tempShootCooldown -= Time.deltaTime; // LUÔN giảm cooldown mỗi frame
+
             }
         }
 
@@ -202,42 +203,17 @@ public class EnemyTankController : MonoBehaviour
     {
         if (bulletPrefab != null && firePoint != null)
         {
-            // Tạo viên đạn từ prefab tại firePoint
             GameObject bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
-
-            // Lấy Rigidbody2D của viên đạn
             Rigidbody2D bulletRb = bullet.GetComponent<Rigidbody2D>();
+            Collider2D bulletCollider = bullet.GetComponent<Collider2D>();
 
             if (bulletRb != null)
             {
-                // Tạm thời vô hiệu hóa collider để tránh va chạm ngay lập tức
-                Collider2D bulletCollider = bullet.GetComponent<Collider2D>();
-                if (bulletCollider != null)
-                {
-                    bulletCollider.enabled = false; // Tắt collider tạm thời
-                }
-
-                bulletRb.linearVelocity = firePoint.up * 10f; // Thiết lập vận tốc cho viên đạn
-
-                StartCoroutine(EnableColliderAfterDelay(bulletCollider, 5f));  // Bật collider sau 0.1s
+                Debug.Log("Enemy shooting bullet at " + firePoint.position);
+                bulletRb.linearVelocity = firePoint.up * 10f;
             }
         }
-        else
-        {
-            Debug.LogWarning("Bullet prefab hoặc fire point không được gán trong EnemyTankController.");
-        }
     }
-
-    // Hàm để bật lại collider sau một khoảng thời gian ngắn
-    private IEnumerator EnableColliderAfterDelay(Collider2D bulletCollider, float delay)
-    {
-        yield return new WaitForSeconds(delay);  // Chờ một khoảng thời gian
-        if (bulletCollider != null)
-        {
-            bulletCollider.enabled = true;  // Bật lại collider sau khi viên đạn di chuyển một chút
-        }
-    }
-
 
 
 
