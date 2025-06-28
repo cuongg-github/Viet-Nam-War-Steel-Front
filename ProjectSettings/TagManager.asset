@@ -16,6 +16,7 @@ TagManager:
   - reward_bullet
   - Area
   - Tank_AI
+  - reward_secretbox
   - Map1
   - VisionArea
   layers:

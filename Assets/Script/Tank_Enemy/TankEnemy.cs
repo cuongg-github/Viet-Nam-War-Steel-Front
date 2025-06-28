@@ -13,6 +13,7 @@ public class TankEnemy : MonoBehaviour
     public TargetKill targetKill;
     public GameObject bulletReward;
     public GameObject healthReward;
+    public GameObject secretBox;
 
     void Start()
     {
@@ -38,11 +39,11 @@ public class TankEnemy : MonoBehaviour
         {
             isDead = true;
             Die();
-            SpawnReward();
 
         }
         healthBar.UpdateBar(currentHealth, maxHealth);
     }
+
 
     void Die()
     {
@@ -52,13 +53,15 @@ public class TankEnemy : MonoBehaviour
         {
             targetKill.KilledTankEnemy();
         }
+        SpawnReward();
         Destroy(gameObject);
     }
     void SpawnReward()
     {
         int hasBullet = Random.Range(0, 2);
         int hasHealth = Random.Range(0, 2);
-        Debug.Log(hasBullet + " " + hasHealth);
+        int hasSecretBox = Random.Range(0, 2);
+        Debug.Log("Bullet: "+ hasBullet + "| Health: " + hasHealth + "| Secret Box: "+ hasSecretBox );
         if (hasBullet == 1)
         {
             Instantiate(bulletReward, transform.position, Quaternion.identity);
@@ -67,6 +70,11 @@ public class TankEnemy : MonoBehaviour
         {
             Vector3 offset = new Vector3(3f, 0, 0);
             Instantiate(healthReward, transform.position + offset, Quaternion.identity);
+        }
+        if (hasSecretBox == 1)
+        {
+            Vector3 offset = new Vector3(3f, 0, 0);
+            Instantiate(secretBox, transform.position + 2*offset, Quaternion.identity);
         }
 
     }
