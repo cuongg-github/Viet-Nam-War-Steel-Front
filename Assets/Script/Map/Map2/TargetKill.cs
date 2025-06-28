@@ -25,6 +25,10 @@ public class TargetKill : MonoBehaviour
         }
     }
 
+    private void TransitionMap2_3()
+    {
+        GameManager.instance.LoadScene(2);
+    }
     private void WinGame()
     {
         WinAnimator.SetBool("isWin",true);
