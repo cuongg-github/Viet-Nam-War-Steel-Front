@@ -1,5 +1,6 @@
 ﻿using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 public class Tank_Shooting : MonoBehaviour
 {
     public GameObject bulletPrefab;
@@ -16,6 +17,7 @@ public class Tank_Shooting : MonoBehaviour
     public GameObject hellfireBombPrefab;
     public TextMeshProUGUI hellfireCooldownText;
 
+    public Image BombIcon;
     public float bombCooldown = 15f;
     private float nextBombTime = 0f;
     private void Start()
@@ -64,6 +66,7 @@ public class Tank_Shooting : MonoBehaviour
                 Debug.Log("Bom đang hồi, còn " + Mathf.CeilToInt(remaining).ToString() + " giây");
             }
         }
+
     }
 
     void Shoot()
