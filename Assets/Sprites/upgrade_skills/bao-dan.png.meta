@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 215912c8309265343aeec87ece7bc934
+guid: 25caa679fd36d2945940bdc279bbe683
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1301872118542077034
-    second: bullet_count_0
+      213: 5505716572327613287
+    second: bao-dan_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: bullet_count_0
+      name: bao-dan_0
       rect:
         serializedVersion: 2
-        x: 131
+        x: 0
         y: 0
-        width: 734
-        height: 1024
+        width: 1024
+        height: 1536
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 693705fa432deede0800000000000000
-      internalID: -1301872118542077034
+      spriteID: 763919f4d0c386c40800000000000000
+      internalID: 5505716572327613287
       vertices: []
       indices: 
       edges: []

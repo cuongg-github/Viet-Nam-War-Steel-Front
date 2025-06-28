@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 215912c8309265343aeec87ece7bc934
+guid: 9fcacf88dfc6c574a8b49602c72db8a3
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1301872118542077034
-    second: bullet_count_0
+      213: -7330063143421999962
+    second: bom-dia-nguc_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: bullet_count_0
+      name: bom-dia-nguc_0
       rect:
         serializedVersion: 2
-        x: 131
+        x: 0
         y: 0
-        width: 734
-        height: 1024
+        width: 1024
+        height: 1536
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 693705fa432deede0800000000000000
-      internalID: -1301872118542077034
+      spriteID: 6a4062b4862664a90800000000000000
+      internalID: -7330063143421999962
       vertices: []
       indices: 
       edges: []

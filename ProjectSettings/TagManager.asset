@@ -14,6 +14,7 @@ TagManager:
   - GunBullet
   - reward_health
   - reward_bullet
+  - reward_secretbox
   layers:
   - Default
   - TransparentFX
