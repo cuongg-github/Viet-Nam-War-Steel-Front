@@ -2,7 +2,7 @@
 
 public class EnemyVision : MonoBehaviour
 {
-    public float detectionTime = 2f;
+    public float detectionTime = 10f;
     private float timer = 0f;
     public GameManager gameManager;
     public bool isEnabled = true;
