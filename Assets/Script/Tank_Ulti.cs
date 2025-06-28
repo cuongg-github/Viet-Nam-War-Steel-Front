@@ -36,14 +36,6 @@ public class Tank_Ulti : MonoBehaviour
         laserPreview.enabled = false;
         confiner = FindFirstObjectByType<CinemachineConfiner>();
         cooldownImage.fillAmount = 0;
-        if ( confiner != null )
-        {
-            curConfiner = confiner.m_BoundingShape2D;
-            Debug.Log("Confiner found: ");
-        } else
-        {
-            Debug.Log("CinemachineConfiner not found in the scene.");
-        }
     }
     void Update()
     {
@@ -53,6 +45,10 @@ public class Tank_Ulti : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.J) && !isUsingSkill && remainingCooldown <= 0 )
         {
+            if (confiner != null)
+            {
+                curConfiner = confiner.m_BoundingShape2D;
+            }
             isUsingSkill = true;
             isLaserActive = true;
             confiner.m_BoundingShape2D = null;
