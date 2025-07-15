@@ -73,6 +73,16 @@ public class Tank : MonoBehaviour
         }
     }
 
+    public void BuffHealth(int health)
+    {
+        currentHealth += health;
+        if (currentHealth > maxHealth)
+        {
+            currentHealth = maxHealth;
+        }
+        healthSlider.SetHeath(currentHealth);
+    }
+
     void Die()
     {
         Instantiate(destroySFX, transform.position, Quaternion.identity);

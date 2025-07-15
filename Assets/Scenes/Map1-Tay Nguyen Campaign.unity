@@ -359,6 +359,10 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6153765208547469054, guid: 2897d865143465e45b2913ca5469e119, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8474438216539556607, guid: 2897d865143465e45b2913ca5469e119, type: 3}
       propertyPath: m_Name
       value: Canvas_ForPlayer
@@ -868,6 +872,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   upgradeCanvas: {fileID: 471822554}
+  tank: {fileID: 0}
 --- !u!1 &540114094
 GameObject:
   m_ObjectHideFlags: 0
@@ -59329,7 +59334,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1736487842005982885, guid: 2f863722fdacc9043add72e65194f9af, type: 3}
       propertyPath: defendTime
-      value: 200
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 1736487842005982885, guid: 2f863722fdacc9043add72e65194f9af, type: 3}
       propertyPath: enemyPrefab
