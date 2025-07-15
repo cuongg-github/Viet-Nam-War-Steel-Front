@@ -269,7 +269,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1477466814100283991, guid: 2897d865143465e45b2913ca5469e119, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1552236545596871222, guid: 2897d865143465e45b2913ca5469e119, type: 3}
       propertyPath: m_Pivot.x
@@ -367,7 +367,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas_ForPlayer
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 887147973676573250, guid: 2897d865143465e45b2913ca5469e119, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -417,6 +418,11 @@ MonoBehaviour:
 Transform:
   m_CorrespondingSourceObject: {fileID: 4306639827965891682, guid: 6dd41329a04e7684f9d486874b8e2706, type: 3}
   m_PrefabInstance: {fileID: 1349085926}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &166754010 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4651785534225201340, guid: 3cf431f6a653ec240b71870d58b989cb, type: 3}
+  m_PrefabInstance: {fileID: 1478006069}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &200523339 stripped
 Transform:
@@ -532,7 +538,7 @@ Transform:
   m_GameObject: {fileID: 435795442}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -108.9, y: -7.8, z: -10}
+  m_LocalPosition: {x: -110.7, y: -17.8, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1006,6 +1012,10 @@ PrefabInstance:
       value: VisionArea (3)
       objectReference: {fileID: 0}
     - target: {fileID: 5404932656143290303, guid: 6dd41329a04e7684f9d486874b8e2706, type: 3}
+      propertyPath: m_Layer
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 5404932656143290303, guid: 6dd41329a04e7684f9d486874b8e2706, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
@@ -1471,10 +1481,22 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2605358540506649896, guid: 3cf431f6a653ec240b71870d58b989cb, type: 3}
   m_PrefabInstance: {fileID: 1478006069}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 166754010}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f38be64c670156c4985213eeb5d8188c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1087082346
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 166754010}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 205d7666e7aabed418b2c57333d2767a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &1095852013 stripped
@@ -58352,6 +58374,10 @@ PrefabInstance:
       value: VisionArea (2)
       objectReference: {fileID: 0}
     - target: {fileID: 5404932656143290303, guid: 6dd41329a04e7684f9d486874b8e2706, type: 3}
+      propertyPath: m_Layer
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 5404932656143290303, guid: 6dd41329a04e7684f9d486874b8e2706, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
@@ -58736,7 +58762,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4651785534225201340, guid: 3cf431f6a653ec240b71870d58b989cb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1087082346}
   m_SourcePrefab: {fileID: 100100000, guid: 3cf431f6a653ec240b71870d58b989cb, type: 3}
 --- !u!114 &1524339106 stripped
 MonoBehaviour:
@@ -58878,7 +58907,7 @@ Transform:
   m_GameObject: {fileID: 1670286171}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -81.85997, y: 0.06321621, z: -10}
+  m_LocalPosition: {x: -73.13713, y: 0.12101483, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -59533,6 +59562,10 @@ PrefabInstance:
       value: Tank_enemy
       objectReference: {fileID: 0}
     - target: {fileID: 5404932656143290303, guid: 6dd41329a04e7684f9d486874b8e2706, type: 3}
+      propertyPath: m_Layer
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 5404932656143290303, guid: 6dd41329a04e7684f9d486874b8e2706, type: 3}
       propertyPath: m_TagString
       value: VisionArea
       objectReference: {fileID: 0}
@@ -59639,11 +59672,11 @@ PrefabInstance:
       objectReference: {fileID: 1967593131120666822, guid: 465b58e2baf702f4e85fa73dfe17e203, type: 3}
     - target: {fileID: 8310335080646905726, guid: c5be528b9c659f14786ba8852a10d82d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -108.9
+      value: -110.7
       objectReference: {fileID: 0}
     - target: {fileID: 8310335080646905726, guid: c5be528b9c659f14786ba8852a10d82d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -7.8
+      value: -17.8
       objectReference: {fileID: 0}
     - target: {fileID: 8310335080646905726, guid: c5be528b9c659f14786ba8852a10d82d, type: 3}
       propertyPath: m_LocalPosition.z
