@@ -26,6 +26,7 @@ public class Bullet : MonoBehaviour
             TankEnemyMap3 enemy = collision.gameObject.GetComponent<TankEnemyMap3>();
             if (enemy != null)
             {
+                Debug.Log("Bullet hit Tank_Enemy"); 
                 Collider2D enemyCollider = enemy.GetComponent<Collider2D>();
                 enemy.TakeDamage(damage);
             }

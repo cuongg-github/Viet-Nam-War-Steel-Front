@@ -267,6 +267,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1477466814100283991, guid: 2897d865143465e45b2913ca5469e119, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1552236545596871222, guid: 2897d865143465e45b2913ca5469e119, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -353,6 +357,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3985652083274756167, guid: 2897d865143465e45b2913ca5469e119, type: 3}
       propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6153765208547469054, guid: 2897d865143465e45b2913ca5469e119, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8474438216539556607, guid: 2897d865143465e45b2913ca5469e119, type: 3}
@@ -858,6 +866,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   upgradeCanvas: {fileID: 471822554}
+  tank: {fileID: 0}
 --- !u!1 &540114094
 GameObject:
   m_ObjectHideFlags: 0
@@ -58869,7 +58878,7 @@ Transform:
   m_GameObject: {fileID: 1670286171}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -76.29492, y: 0.10007191, z: -10}
+  m_LocalPosition: {x: -81.85997, y: 0.06321621, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -59296,7 +59305,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1736487842005982885, guid: 2f863722fdacc9043add72e65194f9af, type: 3}
       propertyPath: defendTime
-      value: 200
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 1736487842005982885, guid: 2f863722fdacc9043add72e65194f9af, type: 3}
       propertyPath: enemyPrefab
