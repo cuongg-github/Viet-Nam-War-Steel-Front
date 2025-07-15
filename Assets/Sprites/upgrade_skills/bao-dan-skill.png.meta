@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      bao-dan-skill_0: -3040851968997283427
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

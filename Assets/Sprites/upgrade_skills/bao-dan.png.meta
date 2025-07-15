@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      bao-dan_0: 5505716572327613287
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

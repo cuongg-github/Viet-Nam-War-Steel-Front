@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      bom-dia-nguc_0: -7330063143421999962
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
